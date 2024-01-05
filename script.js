@@ -1,11 +1,37 @@
 function openTab(tabName) {
-    var i;
-    var x = document.getElementsByClassName("tab");
-    for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
- }
- document.getElementById(tabName).style.display = "block";  
+  var i;
+  var x = document.getElementsByClassName("tab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+
+  var tabContent = document.getElementById(tabName);
+  tabContent.style.display = "block";
+
+  // Remove the fade-in class from all li elements before switching tabs
+  const listItems = document.querySelectorAll('.fade-in');
+  listItems.forEach(listItem => {
+    listItem.classList.remove('fade-in');
+  });
+
+  // Set up the Intersection Observer for li elements within the tab content
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      console.log(entry.target.id, 'isIntersecting:', entry.isIntersecting);
+      if (entry.isIntersecting) {
+        entry.target.classList.add('fade-in');
+      }
+    });
+  }, { threshold: 0.1 }); // Adjust threshold as needed
+
+  const listItemsInTab = tabContent.querySelectorAll('li');
+  listItemsInTab.forEach(listItem => {
+    observer.observe(listItem);
+  });
 }
+
+
+
 
 
 
@@ -19,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Function to create recipe cards
       function createRecipeCard(recipe) {
         const recipeCard = document.createElement("li");
-        recipeCard.className = recipe.id;
+        recipeCard.classList.add("recipe_card", recipe.id);
         recipeCard.setAttribute("data-recipe-id", recipe.id);
 
         const recipeName = document.createElement("h3");
@@ -41,21 +67,21 @@ document.addEventListener("DOMContentLoaded", function () {
         return recipeCard;
       }
 
-      // Function to open a new tab with recipe details
-      function openRecipeTab(recipeId) {
+  // Function to open a new tab with recipe details
+  function openRecipeTab(recipeId) {
           // Function to delete div elements with class "burnable" and style "display: none"
-  function deleteHiddenBurnableDivs() {
-    const burnableDivs = document.querySelectorAll('.burnable[style*="display: none"]');
+    function deleteHiddenBurnableDivs() {
+      const burnableDivs = document.querySelectorAll('.burnable[style*="display: none"]');
   
-    burnableDivs.forEach(burnableDiv => {
-      burnableDiv.parentNode.removeChild(burnableDiv);
+       burnableDivs.forEach(burnableDiv => {
+         burnableDiv.parentNode.removeChild(burnableDiv);
     });
   }
         const recipeDetails = document.getElementById(recipeId);
         if (recipeDetails) {
           openTab(recipeId);
           deleteHiddenBurnableDivs();
-          window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to the top
+          window.scrollTo({ top: 0, behavior: 'auto' }); // Scroll to the top
         } else {
           // Fetch recipe details from recipes.json
           fetch('recipes.json')
@@ -74,13 +100,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         // Open a sub-tab with the additional recipes
                         const subTabContent = document.createElement("div");
-                        subTabContent.className = "container tab unselectable burnable fade";
+                        subTabContent.className = "container tab unselectable burnable";
                         subTabContent.id = recipeId;
       
                         const header = document.createElement("Header");
                         header.id = "Header";
                         header.innerHTML = `
-                          <nav class="nav">
+                          <nav class="nav fade">
                             <a href="#" class="nav-button nav-button-left unselectable" onclick="openTab('Savory')">Savory</a>
                             <a href="#" class="nav-button nav-button-center unselectable" onclick="openTab('Sweet')">Sweet</a>
                             <a href="#" class="nav-button unselectable" onclick="openTab('Beverages')">Beverages</a>
@@ -91,6 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         subRecipesContainer.className = "the_grid_body";
 
                         const categoryTitle = document.createElement("h1");
+                        categoryTitle.className = "fade";
                         categoryTitle.textContent = subRecipesCategory.name;
                         subRecipesContainer.appendChild(categoryTitle);
       
@@ -99,11 +126,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         subRecipes.forEach(subRecipe => {
                           const subRecipeCard = createRecipeCard(subRecipe);
-                          subRecipesContainer.appendChild(subRecipeCard);
-
-                          const listItem = document.createElement("li");
-                          listItem.appendChild(subRecipeCard);
-                          subRecipesList.appendChild(listItem);
+                          const subRecipeId = subRecipe.id; // Use the ID of the recipe card as the sub-tab name
+                          subRecipeCard.addEventListener('click', () => openRecipeTab(subRecipeId));
+                          subRecipesList.appendChild(subRecipeCard);
                         });
       
                         subRecipesContainer.appendChild(subRecipesList);
@@ -114,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         document.body.appendChild(subTabContent);
                         openTab(recipeId);
                         deleteHiddenBurnableDivs();
-                        window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to the top
+                        window.scrollTo({ top: 0, behavior: 'auto' }); // Scroll to the top
                       } else {
                         console.error("Sub-recipes not found for category:", recipe.name);
                       }
@@ -202,7 +227,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.body.appendChild(tabContent);
                 openTab(recipeId);
                 deleteHiddenBurnableDivs();
-                window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to the top
+                window.scrollTo({ top: 0, behavior: 'auto' }); // Scroll to the top
               }
             } else {
               console.error("Recipe details not found for id:", recipeId);
@@ -251,11 +276,11 @@ document.addEventListener("DOMContentLoaded", function () {
 // mobile device detection
 
 // The viewport is less than 768 pixels wide
-if (window.matchMedia("(max-width: 767px)").matches)
-{
+//if (window.matchMedia("(max-width: 767px)").matches)
+//{
   // true for desktop device
-document.querySelector('.desktop-only').style.display = 'none';
-}else{
+//document.querySelector('.desktop-only').style.display = 'none';
+//}else{
     // false for mobile device
-  document.querySelector('.mobile-only').style.display = 'none';
-}
+//  document.querySelector('.mobile-only').style.display = 'none';
+//}
