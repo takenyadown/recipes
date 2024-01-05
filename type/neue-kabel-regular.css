@@ -1,0 +1,143 @@
+/* Set custom properties for each layout feature */
+:root {
+    --neue-kabel-regular-aalt: "aalt" off;
+    --neue-kabel-regular-c2sc: "c2sc" off;
+    --neue-kabel-regular-case: "case" off;
+    --neue-kabel-regular-dlig: "dlig" off;
+    --neue-kabel-regular-dnom: "dnom" off;
+    --neue-kabel-regular-frac: "frac" off;
+    --neue-kabel-regular-lnum: "lnum" off;
+    --neue-kabel-regular-numr: "numr" off;
+    --neue-kabel-regular-onum: "onum" off;
+    --neue-kabel-regular-ordn: "ordn" off;
+    --neue-kabel-regular-pnum: "pnum" off;
+    --neue-kabel-regular-salt: "salt" off;
+    --neue-kabel-regular-sinf: "sinf" off;
+    --neue-kabel-regular-smcp: "smcp" off;
+    --neue-kabel-regular-ss01: "ss01" off;
+    --neue-kabel-regular-ss02: "ss02" off;
+    --neue-kabel-regular-ss03: "ss03" off;
+    --neue-kabel-regular-ss04: "ss04" off;
+    --neue-kabel-regular-ss05: "ss05" off;
+    --neue-kabel-regular-ss06: "ss06" off;
+    --neue-kabel-regular-ss07: "ss07" off;
+    --neue-kabel-regular-ss08: "ss08" off;
+    --neue-kabel-regular-ss09: "ss09" off;
+    --neue-kabel-regular-ss10: "ss10" off;
+    --neue-kabel-regular-ss11: "ss11" off;
+    --neue-kabel-regular-ss12: "ss12" off;
+    --neue-kabel-regular-ss13: "ss13" off;
+    --neue-kabel-regular-ss14: "ss14" off;
+    --neue-kabel-regular-ss20: "ss20" off;
+    --neue-kabel-regular-subs: "subs" off;
+    --neue-kabel-regular-sups: "sups" off;
+    --neue-kabel-regular-tnum: "tnum" off;
+    --neue-kabel-regular-zero: "zero" off;
+    --neue-kabel-regular-cpsp: "cpsp" off;
+}
+
+/* If class is applied, update custom property and
+   apply modern font-variant-* when supported */
+.neue-kabel-regular-dlig {
+    --neue-kabel-regular-dlig: "dlig" on;
+}
+
+@supports (font-variant-ligatures: discretionary-ligatures) {
+    .neue-kabel-regular-dlig {
+        --neue-kabel-regular-dlig: "____";
+        font-variant-ligatures: discretionary-ligatures;
+    }
+}
+
+.neue-kabel-regular-salt {
+    --neue-kabel-regular-salt: "salt" on;
+}
+
+.neue-kabel-regular-ss01 {
+    --neue-kabel-regular-ss01: "ss01" on;
+}
+
+.neue-kabel-regular-ss02 {
+    --neue-kabel-regular-ss02: "ss02" on;
+}
+
+.neue-kabel-regular-ss04 {
+    --neue-kabel-regular-ss04: "ss04" on;
+}
+
+.neue-kabel-regular-ss05 {
+    --neue-kabel-regular-ss05: "ss05" on;
+}
+
+.neue-kabel-regular-ss09 {
+    --neue-kabel-regular-ss09: "ss09" on;
+}
+
+.neue-kabel-regular-ss11 {
+    --neue-kabel-regular-ss11: "ss11" on;
+}
+
+.neue-kabel-regular-ss14 {
+    --neue-kabel-regular-ss14: "ss14" on;
+}
+
+.neue-kabel-all {
+    --neue-kabel-regular-dlig: "dlig" on;
+    --neue-kabel-regular-salt: "salt" on;
+    --neue-kabel-regular-ss01: "ss01" on;
+    --neue-kabel-regular-ss02: "ss02" on;
+    --neue-kabel-regular-ss04: "ss04" on;
+    --neue-kabel-regular-ss05: "ss05" on;
+    --neue-kabel-regular-ss09: "ss09" on;
+    --neue-kabel-regular-ss11: "ss11" on;
+    --neue-kabel-regular-ss14: "ss14" on;
+}
+
+@supports (font-variant-ligatures: discretionary-ligatures) {
+    .neue-kabel-all {
+        --neue-kabel-regular-dlig: "____";
+        font-variant-ligatures: discretionary-ligatures;
+    }
+}
+
+
+/* Apply current state of all custom properties
+   whenever a class is being applied */
+.neue-kabel-all,
+.neue-kabel-regular-aalt,
+.neue-kabel-regular-c2sc,
+.neue-kabel-regular-case,
+.neue-kabel-regular-dlig,
+.neue-kabel-regular-dnom,
+.neue-kabel-regular-frac,
+.neue-kabel-regular-lnum,
+.neue-kabel-regular-numr,
+.neue-kabel-regular-onum,
+.neue-kabel-regular-ordn,
+.neue-kabel-regular-pnum,
+.neue-kabel-regular-salt,
+.neue-kabel-regular-sinf,
+.neue-kabel-regular-smcp,
+.neue-kabel-regular-ss01,
+.neue-kabel-regular-ss02,
+.neue-kabel-regular-ss03,
+.neue-kabel-regular-ss04,
+.neue-kabel-regular-ss05,
+.neue-kabel-regular-ss06,
+.neue-kabel-regular-ss07,
+.neue-kabel-regular-ss08,
+.neue-kabel-regular-ss09,
+.neue-kabel-regular-ss10,
+.neue-kabel-regular-ss11,
+.neue-kabel-regular-ss12,
+.neue-kabel-regular-ss13,
+.neue-kabel-regular-ss14,
+.neue-kabel-regular-ss20,
+.neue-kabel-regular-subs,
+.neue-kabel-regular-sups,
+.neue-kabel-regular-tnum,
+.neue-kabel-regular-zero,
+.neue-kabel-regular-cpsp {
+    font-feature-settings: var(--neue-kabel-regular-aalt), var(--neue-kabel-regular-c2sc), var(--neue-kabel-regular-case), var(--neue-kabel-regular-dlig), var(--neue-kabel-regular-dnom), var(--neue-kabel-regular-frac), var(--neue-kabel-regular-lnum), var(--neue-kabel-regular-numr), var(--neue-kabel-regular-onum), var(--neue-kabel-regular-ordn), var(--neue-kabel-regular-pnum), var(--neue-kabel-regular-salt), var(--neue-kabel-regular-sinf), var(--neue-kabel-regular-smcp), var(--neue-kabel-regular-ss01), var(--neue-kabel-regular-ss02), var(--neue-kabel-regular-ss03), var(--neue-kabel-regular-ss04), var(--neue-kabel-regular-ss05), var(--neue-kabel-regular-ss06), var(--neue-kabel-regular-ss07), var(--neue-kabel-regular-ss08), var(--neue-kabel-regular-ss09), var(--neue-kabel-regular-ss10), var(--neue-kabel-regular-ss11), var(--neue-kabel-regular-ss12), var(--neue-kabel-regular-ss13), var(--neue-kabel-regular-ss14), var(--neue-kabel-regular-ss20), var(--neue-kabel-regular-subs), var(--neue-kabel-regular-sups), var(--neue-kabel-regular-tnum), var(--neue-kabel-regular-zero), var(--neue-kabel-regular-cpsp);
+}
+

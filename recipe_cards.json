@@ -1,0 +1,168 @@
+{
+    "categories": [
+      {
+        "name": "Savory",
+        "recipes": [
+          {
+            "id": "deep_dish",
+            "name": "Deep Dish",
+            "image": "images/coffee.webp"
+          },
+          {
+            "id": "souvlaki",
+            "name": "Souvlaki",
+            "image": "images/coffee.webp"
+          },
+          {
+            "id":"texas_roll_house",
+            "name": "Texas Roll House",
+            "image": "images/tea.webp"
+          },
+          {
+            "id": "brats",
+            "name": "Brats",
+            "image": "images/tea.webp"
+          },
+          {
+            "id": "mushroon_gnocchi",
+            "name": "Mushroom Gnocchi",
+            "image": "images/tea.webp"
+          },
+          {
+            "id": "sauces_savory",
+            "name": "Sauces",
+            "image": "images/tea.webp"
+          }
+        ]
+      },
+      {
+        "name": "Sweet",
+        "recipes": [
+          {
+            "id": "creme_brulee",
+            "name": "Crème Brûlée",
+            "image": "images/creme_brulee.webp"
+          },
+          {
+            "id": "cheesecake",
+            "name": "Cheesecake",
+            "image": "images/tea.webp"
+          },
+          {
+            "id": "magic_cookies",
+            "name": "Magic Cookies",
+            "image": "images/tea.webp"
+          },
+          {
+            "id": "crepes",
+            "name": "Les Crêpes",
+            "image": "images/tea.webp"
+          },
+          {
+            "id": "gingerbread_dudes",
+            "name": "Gingerbread Dudes",
+            "image": "images/tea.webp"
+          },
+          {
+            "id": "recipe_name",
+            "name": "Recipe Name",
+            "image": "images/tea.webp"
+          }
+        ]
+      },
+      {
+        "name": "Beverages",
+        "recipes": [
+          {
+            "id": "coffee",
+            "name": "Coffee",
+            "image": "images/coffee.webp"
+          },
+          {
+            "id": "london_fog",
+            "name": "London Fog",
+            "image": "images/tea.webp"
+          },
+          {
+            "id": "lemonade",
+            "name": "Lemonade",
+            "image": "images/tea.webp"
+          },
+          {
+            "id": "hot_chocolate",
+            "name": "Hot Chocolate",
+            "image": "images/tea.webp"
+          },
+          {
+            "id": "egg_nog",
+            "name": "Egg Nog",
+            "image": "images/tea.webp"
+          },
+          {
+            "id": "recipe_name",
+            "name": "Recipe Name",
+            "image": "images/tea.webp"
+          }
+        ]
+      },
+
+
+
+      {
+        "name": "Savory Sauces",
+        "recipes": [
+          {
+            "id": "caesar_dressing",
+            "name": "Caesar Dressing",
+            "image": "images/coffee.webp"
+          },
+          {
+            "id": "honey_mustard",
+            "name": "Honey Mustard",
+            "image": "images/coffee.webp"
+          },
+          {
+            "id": "beurre_blanc",
+            "name": "Beurre Blanc",
+            "image": "images/coffee.webp"
+          },
+          {
+            "id": "tzatziki",
+            "name": "Tzatziki Sauce",
+            "image": "images/coffee.webp"
+          }
+        ]
+      },
+      {
+        "name": "Coffee",
+        "recipes": [
+          {
+            "id": "aeropress",
+            "name": "Aeropress",
+            "image": "images/coffee.webp"
+          },
+          {
+            "id": "syrups",
+            "name": "Syrups",
+            "image": "images/tea.webp"
+          }
+        ]
+      },
+      {
+        "name": "Syrups",
+        "recipes": [
+          {
+            "id": "simple_syrup",
+            "name": "Simple Syrup",
+            "image": "images/coffee.webp"
+          },
+          {
+            "id": "pumpkin_syrup",
+            "name": "Pumpkin Spice Syrup",
+            "image": "images/tea.webp"
+          }
+        ]
+      }
+    ]
+  }
+  

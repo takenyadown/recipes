@@ -1,0 +1,335 @@
+{
+    "recipes": {
+      "deep_dish": {
+        "title": ["Deep Dish"],
+        "subtitle": ["Makes 1 big pizza"],
+
+        "ingredients": [
+            "",
+            "",
+            ""
+        ],
+
+        "optional": [""],
+        "optional_ingredient": [
+            ""
+        ],
+
+        "instructions": [
+            ""
+        ]
+
+      },
+
+
+
+      "souvlaki": {
+        "title": ["Souvlaki"],
+        "subtitle": ["Makes 4 servings"],
+
+        "ingredients": [
+            "¼ cup olive oil",
+            "1 lemon (juiced, 3 tbsp)",
+            "2 garlic cloves, minced",
+            "1 tbsp dried oregano",
+            "¼ tsp salt",
+            "¼ tsp freshly ground black pepper"
+        ],
+
+        "optional": ["Garnish:"],
+        "optional_ingredient": [
+            "1 small red onion",
+            "2 plum tomeatoes",
+            "Tzatziki Sauce",
+            "pita bread",
+            "lemon slices"
+        ],
+
+        "instructions": [
+            "Cut chicken into bit size pieces and transfer into a gallon size ziploc babeg",
+            "Mix together the olive oil, lemon juice, garlic, oregano, salt, and pepper, and pour over chicken. Squeeze air out of bag and seal. Toss chicken to coat and transfer to regrigerator to marinate for 45mins-1hr.",
+            "Remove chicken from marinade and thread onto metal skewers. Leave some space between the pieces, don't pack too closely together,",
+            ""
+        ]
+
+      },
+
+
+      "brats": {
+        "title": ["Brats"],
+        "subtitle": [""],
+
+        "ingredients": [
+            "",
+            "",
+            ""
+        ],
+
+        "optional": [""],
+        "optional_ingredient": [
+            ""
+        ],
+
+        "instructions": [
+            ""
+        ]
+
+      },
+
+
+      "mushroon_gnocchi": {
+        "title": ["Mushroom Gnocchi"],
+        "subtitle": [""],
+
+        "ingredients": [
+            "",
+            "",
+            ""
+        ],
+
+        "optional": [""],
+        "optional_ingredient": [
+            ""
+        ],
+
+        "instructions": [
+            ""
+        ]
+
+      },
+
+
+      "caesar_dressing": {
+        "title": ["Caesar Dressing"],
+        "subtitle": ["Makes 1 1/3 cups"],
+
+        "ingredients": [
+            "2 small garlic cloves, minces",
+            "1 tsp anchovy paste",
+            "2 tbsp freshly squeezed lemon juice",
+            "1 tsp Dijon mustard",
+            "1 tsp Worcestershire",
+            "240g or 1 cup mayonnaise",
+            "50g or ½ cup freshly grated Parmigiano-Reggiano",
+            "¼ tsp salt",
+            "¼ tsp freshly ground black pepper"
+        ],
+
+        "optional": [""],
+        "optional_ingredient": [
+            ""
+        ],
+
+        "instructions": [
+            "In a medium bowl, whisk together the garlic, anchovy paste, lemon juice, Dijon mustard, and Worcestershire sauce.",
+            "Add the mayonnaise, Parmigiano-Reggiano, salt, and pepper and whisk until well combined.",
+            "Taste and adjust to your liking. The dressing will keep well in the fridge for about a week."
+        ]
+
+      },
+
+
+
+      "beurre_blanc": {
+        "title": ["Beurre Blanc"],
+        "subtitle": ["Not sure about this one"],
+
+        "ingredients": [
+            "1 tbsp unsalted butter",
+            "¼ cup finely chopped shallots",
+            "2 tbsp white-wine vinegar",
+            "3 tbsp dry white wine",
+            "6 tbsp unsalted butter, cut into 10 pieces"
+        ],
+
+        "optional": ["Note:"],
+        "optional_ingredient": [
+            "I've altered this recipe based on comments, I don't think this is the same one I used last time though. Wouldn't recommend using this recipe just yet."
+        ],
+
+        "instructions": [
+            "Heat 1 tbsp of butter in a saucepan and add the shallots. Cook briefly, stirring, and add the vinegar and wine. Cook until reduced to half.",
+            "Reduce heat to low and add salt. Add butter, one piece at a time, stirring rapidly with a wire whisk."
+        ]
+
+      },
+
+
+
+      "crepes": {
+        "title": ["Les Crêpes"],
+        "subtitle": ["Makes a couple 2 tree"],
+
+        "ingredients": [
+            "2 cups malk",
+            "1 cup flour",
+            "1 egg",
+            "½ tbsp melted butter"
+
+        ],
+
+        "optional": ["Strawberry Fields:"],
+        "optional_ingredient": [
+            "141g powdered sugar",
+            "1 8oz package cream cheese, softened",
+            "1 tbsp lemon juice",
+            "1 tsp lemon zest",
+            "½ tsp vanilla extract",
+            "1 cup heavy cream"
+        ],
+
+        "instructions": [
+            "Whisk together milk, flour, egg, and butter in a medium bowl. Place in refrigerator for 20mins.",
+            "whip heavy cream to stiff peaks",
+            "Beat powdered sugar, cream cheese, lemon juice, lemon zest, and vanilla in the bowl of a stand mixer fitted with the paddle attachment(i think, I may have used the whisk attachment) until smooth. Gently fold in whipped cream.",
+            "Preheat pan on medium-low heat, rub butter all over it. Remove from heat and scoop ½ cup of batter into pan. Use gravity to evenly distribute batter. Place the pan back on the heat and fill in any gaps. turn the heat up to medium-high. Flip when the underside has golden spots. Repeat, buttering pan every other crêpe.",
+            "place filling onto half of the crêpe and fold into a quarter size."
+        ]
+
+      },
+
+
+
+      "gingerbread_dudes": {
+        "title": ["Gingerbread Dudes"],
+        "subtitle": ["Makes 2-3 dozen dudes"],
+
+        "ingredients": [
+            "3 ½ Cups AP flour, plus more for dusting",
+            "1 tbsp ground ginger",
+            "2 tsp ground cinnamon",
+            "1 tsp baking soda",
+            "1 tsp fine salt",
+            "¼ tsp ground allspice",
+            "¼ tsp ground cloves",
+            "6 tbsp unsalted butter, melted",
+            "1 tbsp vegetable shortening, melted",
+            "⅔ cup light brown sugar",
+            "¾ cup molasses",
+            "1 large egg"
+        ],
+
+        "optional": [""],
+        "optional_ingredient": [
+            ""
+        ],
+
+        "instructions": [
+            "Whisk together the flour, ginger, cinnamon, baking soda, salt, allspice, and cloves in a large bowl",
+            "Mix the butter, shortening, brown sugar, and molasses in the bowl of a stand mixer fitted with the paddle attachment. Beat in the egg. Beat the dry ingredients into the wet ingredients in two additions. Divide the dough in half, wrap in plastic and pat to 1/2in thick. Refrigerate for 2 hours.",
+            "Preheat the oven to 350ºF.",
+            "On a lightly floured surface, roll out one piece of dough to ¼ in thick, dusting with flour if needed. Cut into 3-5in thick cookies with a cookie cutter. Brush off the excess flour and refrigerate for 15mins. Repeat with the second piece of dough.",
+            "Bake the cookies in batches until they are golden around the edges, 12-15mins. Transfer to wire rack and cool completely."
+        ]
+
+      },
+
+
+
+      "hot_chocolate": {
+        "title": ["Hot Chocolate"],
+        "subtitle": ["Makes 1 8oz serving"],
+
+        "ingredients": [
+            "¼ cup heavy cream",
+            "3/4 cup malk",
+            "1.5 tbsp sugar",
+            "2 tbsp dutch-process cocoa powder",
+            "a pinch of salt",
+            "¼ tsp vanilla",
+            "1 square of Ghirardelli 60% baking bar"
+        ],
+
+        "optional": ["optional:"],
+        "optional_ingredient": [
+            "~¼ tsp ground ginger", "a couple shakes of cinnamon", "a bit of chili powder"
+        ],
+
+        "instructions":[
+            "Combine malk and cream in a 1 cup measuring cup.",
+            "Pour ~1oz malk mixture into 2 cup measuring cup.",
+            "Heat the rest of the malk mixture in a saucepan until simmering (190ºF), stirring occasionally, do not boil.",
+            "While heating, sift cocoa powder and add sugar, vanilla, cinnamon, and salt into the 1oz of malk mix.",
+            "Whisk until well combined.",
+            "Once hot enough, turn off heat and whisk in chocolate mixture.",
+            "Use spare hand to break off pieces of chocolate square and slowly whisk into hot chocolate.",
+            "Continue whisking for a few more minutes to allow mixture to thicken and fully emulsify.",
+            "Pour into an 8oz cup and top with whipped cream and dust with cocoa powder, or some marshmallows, and/or a peppermint stick."
+        ]
+        
+      },
+
+
+
+      "london_fog": {
+        "title": ["London Fog"],
+        "subtitle": ["Makes 14oz"],
+
+        "ingredients": [
+            "1 cup water",
+            "2 Twinings earl grey tea bags",
+            "¾ cup malk",
+            "<1tbsp sugar",
+            "<¼tsp vanilla extract"
+        ],
+
+        "optional": ["optional:"],
+        "optional_ingredient": [
+            "edible lavendar for garnish"
+        ],
+
+        "instructions": [
+            "Boil water in a kettle or saucepan.",
+            "Place tea bags in a cup, pour the boiling water over the bags and steep for 5mins, DON'T bob the bags, they aren't fishing rods.",
+            "Pour milk into microwave save cup and microwave, stirring and checking temp every 20s until it reaches at least 140ºF but no more than 160ºF.",
+            "Use a frothing wand to incorperate air and texture the milk. Optionally, you can use a mason jar and shake until frothy.",
+            "Remove the tea bags from the cup and dissolve in sugar and vanilla. Pour in milk and top with optional lavendar."
+        ]
+
+      },
+
+
+
+      "simple_syrup": {
+        "title": ["Simple Syrup"],
+        "subtitle": ["Looks complicated"],
+
+        "ingredients": [
+            "1 part sugar",
+            "1 part water"
+        ],
+
+        "optional": [""],
+        "optional_ingredient": [
+            ""
+        ],
+
+        "instructions": [
+            "Heat in a saucepan over medium heat.",
+            "Simmer until a thin syrupy consistancy forms.",
+            "Transfer into a mason jar, syrup will thicken as it cools."
+        ]
+
+      },
+
+
+
+      "sauces_savory": {
+        "subTab": true,
+        "name": "Savory Sauces"
+      },
+      "coffee": {
+        "subTab": true,
+        "name": "Coffee"
+      },
+      "aeropress": {
+        "subTab": true,
+        "name": "Aeropress"
+      },
+      "syrups": {
+        "subTab": true,
+        "name": "Syrups"
+      }
+    }
+  }
+  

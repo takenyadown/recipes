@@ -1,0 +1,143 @@
+/* Set custom properties for each layout feature */
+:root {
+    --neue-kabel-black-aalt: "aalt" off;
+    --neue-kabel-black-c2sc: "c2sc" off;
+    --neue-kabel-black-case: "case" off;
+    --neue-kabel-black-dlig: "dlig" off;
+    --neue-kabel-black-dnom: "dnom" off;
+    --neue-kabel-black-frac: "frac" off;
+    --neue-kabel-black-lnum: "lnum" off;
+    --neue-kabel-black-numr: "numr" off;
+    --neue-kabel-black-onum: "onum" off;
+    --neue-kabel-black-ordn: "ordn" off;
+    --neue-kabel-black-pnum: "pnum" off;
+    --neue-kabel-black-salt: "salt" off;
+    --neue-kabel-black-sinf: "sinf" off;
+    --neue-kabel-black-smcp: "smcp" off;
+    --neue-kabel-black-ss01: "ss01" off;
+    --neue-kabel-black-ss02: "ss02" off;
+    --neue-kabel-black-ss03: "ss03" off;
+    --neue-kabel-black-ss04: "ss04" off;
+    --neue-kabel-black-ss05: "ss05" off;
+    --neue-kabel-black-ss06: "ss06" off;
+    --neue-kabel-black-ss07: "ss07" off;
+    --neue-kabel-black-ss08: "ss08" off;
+    --neue-kabel-black-ss09: "ss09" off;
+    --neue-kabel-black-ss10: "ss10" off;
+    --neue-kabel-black-ss11: "ss11" off;
+    --neue-kabel-black-ss12: "ss12" off;
+    --neue-kabel-black-ss13: "ss13" off;
+    --neue-kabel-black-ss14: "ss14" off;
+    --neue-kabel-black-ss20: "ss20" off;
+    --neue-kabel-black-subs: "subs" off;
+    --neue-kabel-black-sups: "sups" off;
+    --neue-kabel-black-tnum: "tnum" off;
+    --neue-kabel-black-zero: "zero" off;
+    --neue-kabel-black-cpsp: "cpsp" off;
+}
+
+/* If class is applied, update custom property and
+   apply modern font-variant-* when supported */
+.neue-kabel-black-dlig {
+    --neue-kabel-black-dlig: "dlig" on;
+}
+
+@supports (font-variant-ligatures: discretionary-ligatures) {
+    .neue-kabel-black-dlig {
+        --neue-kabel-black-dlig: "____";
+        font-variant-ligatures: discretionary-ligatures;
+    }
+}
+
+.neue-kabel-black-salt {
+    --neue-kabel-black-salt: "salt" on;
+}
+
+.neue-kabel-black-ss01 {
+    --neue-kabel-black-ss01: "ss01" on;
+}
+
+.neue-kabel-black-ss02 {
+    --neue-kabel-black-ss02: "ss02" on;
+}
+
+.neue-kabel-black-ss04 {
+    --neue-kabel-black-ss04: "ss04" on;
+}
+
+.neue-kabel-black-ss05 {
+    --neue-kabel-black-ss05: "ss05" on;
+}
+
+.neue-kabel-black-ss09 {
+    --neue-kabel-black-ss09: "ss09" on;
+}
+
+.neue-kabel-black-ss11 {
+    --neue-kabel-black-ss11: "ss11" on;
+}
+
+.neue-kabel-black-ss14 {
+    --neue-kabel-black-ss14: "ss14" on;
+}
+
+.neue-kabel-all {
+    --neue-kabel-black-dlig: "dlig" on;
+    --neue-kabel-black-salt: "salt" on;
+    --neue-kabel-black-ss01: "ss01" on;
+    --neue-kabel-black-ss02: "ss02" on;
+    --neue-kabel-black-ss04: "ss04" on;
+    --neue-kabel-black-ss05: "ss05" on;
+    --neue-kabel-black-ss09: "ss09" on;
+    --neue-kabel-black-ss11: "ss11" on;
+    --neue-kabel-black-ss14: "ss14" on;
+}
+
+@supports (font-variant-ligatures: discretionary-ligatures) {
+    .neue-kabel-all {
+        --neue-kabel-black-dlig: "____";
+        font-variant-ligatures: discretionary-ligatures;
+    }
+}
+
+
+/* Apply current state of all custom properties
+   whenever a class is being applied */
+.neue-kabel-all,
+.neue-kabel-black-aalt,
+.neue-kabel-black-c2sc,
+.neue-kabel-black-case,
+.neue-kabel-black-dlig,
+.neue-kabel-black-dnom,
+.neue-kabel-black-frac,
+.neue-kabel-black-lnum,
+.neue-kabel-black-numr,
+.neue-kabel-black-onum,
+.neue-kabel-black-ordn,
+.neue-kabel-black-pnum,
+.neue-kabel-black-salt,
+.neue-kabel-black-sinf,
+.neue-kabel-black-smcp,
+.neue-kabel-black-ss01,
+.neue-kabel-black-ss02,
+.neue-kabel-black-ss03,
+.neue-kabel-black-ss04,
+.neue-kabel-black-ss05,
+.neue-kabel-black-ss06,
+.neue-kabel-black-ss07,
+.neue-kabel-black-ss08,
+.neue-kabel-black-ss09,
+.neue-kabel-black-ss10,
+.neue-kabel-black-ss11,
+.neue-kabel-black-ss12,
+.neue-kabel-black-ss13,
+.neue-kabel-black-ss14,
+.neue-kabel-black-ss20,
+.neue-kabel-black-subs,
+.neue-kabel-black-sups,
+.neue-kabel-black-tnum,
+.neue-kabel-black-zero,
+.neue-kabel-black-cpsp {
+    font-feature-settings: var(--neue-kabel-black-aalt), var(--neue-kabel-black-c2sc), var(--neue-kabel-black-case), var(--neue-kabel-black-dlig), var(--neue-kabel-black-dnom), var(--neue-kabel-black-frac), var(--neue-kabel-black-lnum), var(--neue-kabel-black-numr), var(--neue-kabel-black-onum), var(--neue-kabel-black-ordn), var(--neue-kabel-black-pnum), var(--neue-kabel-black-salt), var(--neue-kabel-black-sinf), var(--neue-kabel-black-smcp), var(--neue-kabel-black-ss01), var(--neue-kabel-black-ss02), var(--neue-kabel-black-ss03), var(--neue-kabel-black-ss04), var(--neue-kabel-black-ss05), var(--neue-kabel-black-ss06), var(--neue-kabel-black-ss07), var(--neue-kabel-black-ss08), var(--neue-kabel-black-ss09), var(--neue-kabel-black-ss10), var(--neue-kabel-black-ss11), var(--neue-kabel-black-ss12), var(--neue-kabel-black-ss13), var(--neue-kabel-black-ss14), var(--neue-kabel-black-ss20), var(--neue-kabel-black-subs), var(--neue-kabel-black-sups), var(--neue-kabel-black-tnum), var(--neue-kabel-black-zero), var(--neue-kabel-black-cpsp);
+}
+

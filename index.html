@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatable" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="https://use.typekit.net/gtb4agn.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="type/neue-kabel-regular.css">
+    <link rel="stylesheet" href="type/neue-kabel-bold.css">
+    <link rel="stylesheet" href="type/neue-kabel-black.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body class="neue-kabel-all">
+
+
+    
+    <!--Home Tab-->
+    <div id="Home" class="container tab fade">
+        <h1 title=" " class="unselectable">
+            <span class="the">The</span>
+            <span class="book">Book of Recipes</span>
+        </h1>
+        <header id="home_header">
+            <nav class="nav">
+                <a href="#" class="nav-button nav-button-left unselectable" onclick="openTab('Savory')" id="toggleButton">Savory</a>
+                <a href="#" class="nav-button nav-button-center unselectable" onclick="openTab('Sweet')" id="toggleButton">Sweet</a>
+                <a href="#" class="nav-button unselectable" onclick="openTab('Beverages')" id="toggleButton">Beverages</a>
+            </nav>
+        </header>
+       <p id="The" class="unselectable">
+            The&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        </p>
+    </div>
+    <!--End Home Tab-->
+    
+
+    <!--Savory Tab-->
+<div id="Savory" class="container tab unselectable fade" style="display:none;">
+    <Header id="Header">
+        <nav class="nav">
+            <a href="#" class="nav-button nav-button-left unselectable" onclick="openTab('Savory')">Savory</a>
+            <a href="#" class="nav-button nav-button-center unselectable" onclick="openTab('Sweet')">Sweet</a>
+            <a href="#" class="nav-button unselectable" onclick="openTab('Beverages')">Beverages</a>
+        </nav>
+    </Header>
+    <div class="savory_text the_grid_body">
+        <h1>Savory</h1>
+        <ul id="savory-container" class="the_grid"></ul>
+    </div>
+
+</div>
+
+    <!--End Savory Tab-->
+
+    
+    <!--Sweet Tab-->
+<div id="Sweet" class="container tab unselectable fade" style="display:none;">
+    <Header id="Header">
+        <nav class="nav">
+            <a href="#" class="nav-button nav-button-left unselectable" onclick="openTab('Savory')">Savory</a>
+            <a href="#" class="nav-button nav-button-center unselectable" onclick="openTab('Sweet')">Sweet</a>
+            <a href="#" class="nav-button unselectable" onclick="openTab('Beverages')">Beverages</a>
+        </nav>
+    </Header>
+    <div class="savory_text the_grid_body">
+        <h1>Sweet</h1>
+        <ul id="sweet-container" class="the_grid"></ul>
+    </div>
+</div>
+
+    <!--End Sweet Tab-->
+
+    <!--Beverages Tab-->
+<div id="Beverages" class="container tab unselectable fade" style="display:none;">
+    <Header id="Header">
+        <nav class="nav">
+            <a href="#" class="nav-button nav-button-left unselectable" onclick="openTab('Savory')">Savory</a>
+            <a href="#" class="nav-button nav-button-center unselectable" onclick="openTab('Sweet')">Sweet</a>
+            <a href="#" class="nav-button unselectable" onclick="openTab('Beverages')">Beverages</a>
+        </nav>
+    </Header>
+    <div class="savory_text the_grid_body">
+        <h1>Beverages</h1>
+        <ul id="beverages-container" class="the_grid"></ul>
+    </div>
+</div>
+        
+    <!--End Beverages Tab-->
+    
+
+
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>

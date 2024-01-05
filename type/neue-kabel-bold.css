@@ -1,0 +1,143 @@
+/* Set custom properties for each layout feature */
+:root {
+    --neue-kabel-bold-aalt: "aalt" off;
+    --neue-kabel-bold-c2sc: "c2sc" off;
+    --neue-kabel-bold-case: "case" off;
+    --neue-kabel-bold-dlig: "dlig" off;
+    --neue-kabel-bold-dnom: "dnom" off;
+    --neue-kabel-bold-frac: "frac" off;
+    --neue-kabel-bold-lnum: "lnum" off;
+    --neue-kabel-bold-numr: "numr" off;
+    --neue-kabel-bold-onum: "onum" off;
+    --neue-kabel-bold-ordn: "ordn" off;
+    --neue-kabel-bold-pnum: "pnum" off;
+    --neue-kabel-bold-salt: "salt" off;
+    --neue-kabel-bold-sinf: "sinf" off;
+    --neue-kabel-bold-smcp: "smcp" off;
+    --neue-kabel-bold-ss01: "ss01" off;
+    --neue-kabel-bold-ss02: "ss02" off;
+    --neue-kabel-bold-ss03: "ss03" off;
+    --neue-kabel-bold-ss04: "ss04" off;
+    --neue-kabel-bold-ss05: "ss05" off;
+    --neue-kabel-bold-ss06: "ss06" off;
+    --neue-kabel-bold-ss07: "ss07" off;
+    --neue-kabel-bold-ss08: "ss08" off;
+    --neue-kabel-bold-ss09: "ss09" off;
+    --neue-kabel-bold-ss10: "ss10" off;
+    --neue-kabel-bold-ss11: "ss11" off;
+    --neue-kabel-bold-ss12: "ss12" off;
+    --neue-kabel-bold-ss13: "ss13" off;
+    --neue-kabel-bold-ss14: "ss14" off;
+    --neue-kabel-bold-ss20: "ss20" off;
+    --neue-kabel-bold-subs: "subs" off;
+    --neue-kabel-bold-sups: "sups" off;
+    --neue-kabel-bold-tnum: "tnum" off;
+    --neue-kabel-bold-zero: "zero" off;
+    --neue-kabel-bold-cpsp: "cpsp" off;
+}
+
+/* If class is applied, update custom property and
+   apply modern font-variant-* when supported */
+.neue-kabel-bold-dlig {
+    --neue-kabel-bold-dlig: "dlig" on;
+}
+
+@supports (font-variant-ligatures: discretionary-ligatures) {
+    .neue-kabel-bold-dlig {
+        --neue-kabel-bold-dlig: "____";
+        font-variant-ligatures: discretionary-ligatures;
+    }
+}
+
+.neue-kabel-bold-salt {
+    --neue-kabel-bold-salt: "salt" on;
+}
+
+.neue-kabel-bold-ss01 {
+    --neue-kabel-bold-ss01: "ss01" on;
+}
+
+.neue-kabel-bold-ss02 {
+    --neue-kabel-bold-ss02: "ss02" on;
+}
+
+.neue-kabel-bold-ss04 {
+    --neue-kabel-bold-ss04: "ss04" on;
+}
+
+.neue-kabel-bold-ss05 {
+    --neue-kabel-bold-ss05: "ss05" on;
+}
+
+.neue-kabel-bold-ss09 {
+    --neue-kabel-bold-ss09: "ss09" on;
+}
+
+.neue-kabel-bold-ss11 {
+    --neue-kabel-bold-ss11: "ss11" on;
+}
+
+.neue-kabel-bold-ss14 {
+    --neue-kabel-bold-ss14: "ss14" on;
+}
+
+.neue-kabel-all {
+    --neue-kabel-bold-dlig: "dlig" on;
+    --neue-kabel-bold-salt: "salt" on;
+    --neue-kabel-bold-ss01: "ss01" on;
+    --neue-kabel-bold-ss02: "ss02" on;
+    --neue-kabel-bold-ss04: "ss04" on;
+    --neue-kabel-bold-ss05: "ss05" on;
+    --neue-kabel-bold-ss09: "ss09" on;
+    --neue-kabel-bold-ss11: "ss11" on;
+    --neue-kabel-bold-ss14: "ss14" on;
+}
+
+@supports (font-variant-ligatures: discretionary-ligatures) {
+    .neue-kabel-all {
+        --neue-kabel-bold-dlig: "____";
+        font-variant-ligatures: discretionary-ligatures;
+    }
+}
+
+
+/* Apply current state of all custom properties
+   whenever a class is being applied */
+.neue-kabel-all,
+.neue-kabel-bold-aalt,
+.neue-kabel-bold-c2sc,
+.neue-kabel-bold-case,
+.neue-kabel-bold-dlig,
+.neue-kabel-bold-dnom,
+.neue-kabel-bold-frac,
+.neue-kabel-bold-lnum,
+.neue-kabel-bold-numr,
+.neue-kabel-bold-onum,
+.neue-kabel-bold-ordn,
+.neue-kabel-bold-pnum,
+.neue-kabel-bold-salt,
+.neue-kabel-bold-sinf,
+.neue-kabel-bold-smcp,
+.neue-kabel-bold-ss01,
+.neue-kabel-bold-ss02,
+.neue-kabel-bold-ss03,
+.neue-kabel-bold-ss04,
+.neue-kabel-bold-ss05,
+.neue-kabel-bold-ss06,
+.neue-kabel-bold-ss07,
+.neue-kabel-bold-ss08,
+.neue-kabel-bold-ss09,
+.neue-kabel-bold-ss10,
+.neue-kabel-bold-ss11,
+.neue-kabel-bold-ss12,
+.neue-kabel-bold-ss13,
+.neue-kabel-bold-ss14,
+.neue-kabel-bold-ss20,
+.neue-kabel-bold-subs,
+.neue-kabel-bold-sups,
+.neue-kabel-bold-tnum,
+.neue-kabel-bold-zero,
+.neue-kabel-bold-cpsp {
+    font-feature-settings: var(--neue-kabel-bold-aalt), var(--neue-kabel-bold-c2sc), var(--neue-kabel-bold-case), var(--neue-kabel-bold-dlig), var(--neue-kabel-bold-dnom), var(--neue-kabel-bold-frac), var(--neue-kabel-bold-lnum), var(--neue-kabel-bold-numr), var(--neue-kabel-bold-onum), var(--neue-kabel-bold-ordn), var(--neue-kabel-bold-pnum), var(--neue-kabel-bold-salt), var(--neue-kabel-bold-sinf), var(--neue-kabel-bold-smcp), var(--neue-kabel-bold-ss01), var(--neue-kabel-bold-ss02), var(--neue-kabel-bold-ss03), var(--neue-kabel-bold-ss04), var(--neue-kabel-bold-ss05), var(--neue-kabel-bold-ss06), var(--neue-kabel-bold-ss07), var(--neue-kabel-bold-ss08), var(--neue-kabel-bold-ss09), var(--neue-kabel-bold-ss10), var(--neue-kabel-bold-ss11), var(--neue-kabel-bold-ss12), var(--neue-kabel-bold-ss13), var(--neue-kabel-bold-ss14), var(--neue-kabel-bold-ss20), var(--neue-kabel-bold-subs), var(--neue-kabel-bold-sups), var(--neue-kabel-bold-tnum), var(--neue-kabel-bold-zero), var(--neue-kabel-bold-cpsp);
+}
+

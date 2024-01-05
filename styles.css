@@ -1,0 +1,584 @@
+@font-face {
+  font-family: 'tangoregular';
+  src: url('type/tango_regular-webfont.woff2') format('woff2'),
+       url('type/tango_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'neue_kabelregular';
+  src: url('type/neue_kabel_regular.woff') format('woff'),
+       url('type/neue_kabel_regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'neue_kabelbold';
+  src: url('type/neue_kabel_bold.woff') format('woff'),
+       url('type/neue_kabel_bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'neue_kabelblack';
+  src: url('type/neue_kabel_black.woff') format('woff'),
+       url('type/neue_kabel_black.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bello_script';
+  src: url('type/bello_script.woff') format('woff'),
+       url('type/bello_script.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #231F20;
+  background-size: cover;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+*/
+}
+
+body::-webkit-scrollbar{
+  
+  width: 0;
+  height: 0;
+}
+
+/*Header*/
+
+header{
+  z-index: 999999;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin: 7px auto;
+  padding: 0 0vw;
+  margin-left: auto;
+}
+
+.nav-button {
+  background-color: rgba(17, 24, 39, 0);
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: 'bello_script', "myriad-pro", "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  transition: transform .15s;
+  transition: background-color .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+.nav-button:hover {
+  /*background-color: rgba(55, 65, 81, 0.25);*/
+  background-color: rgba(24, 24, 24, 0.339);
+}
+
+.nav-button:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.nav-button:active {
+  /*box-shadow: #D6D6E7 0 3px 7px inset;*/
+  transform: translateY(1px);
+  background-color: rgba(22, 22, 22, 0.518);
+}
+
+@media (min-width: 586.813px) {
+  .nav{
+    border-radius: 1em;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 32px;
+  }
+  .nav-button-center{
+    margin: 0 144px;
+  }
+}
+/*end Header*/
+
+
+
+
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+
+
+/*Home page*/
+#Home {
+  position: absolute;
+  left:0px;
+  top:0px;
+  height: 100vh;
+  width: 100vw;
+  z-index: -10;
+}
+
+
+[title=" "] {
+  margin-top: 20vh;
+  text-align: center;
+  font-size: 15.5vw;
+  font-family: 'tangoregular', "myriad-pro", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  z-index: 1;
+  letter-spacing: -2px;
+}
+
+.the {
+  font-family: 'bello_script';
+  color: white;
+  text-align: center;
+  font-size: 7vw;
+  position: absolute;
+  margin-left: 9.5vw;
+  margin-top: -3vw;
+  letter-spacing: 0;
+}
+
+#The {
+  display: none;
+}
+
+#home_header .nav{
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+#home_header .nav .nav-button {
+  font-size: 1.7rem;
+}
+
+#home_header .nav .nav-button-center{
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+@media (min-width: 586.813px) {
+  #home_header .nav{
+    flex-direction: row;
+  }
+  #home_header .nav .nav-button {
+    font-size: 1.3rem;
+  }
+  .the{
+    display: block;
+    border-radius: 1em;
+    margin-left: 16.3vw;
+  }
+}
+
+@media (min-width: 689px) {
+  [title=" "]{
+    font-size: 116px;
+    margin-top: 35vh;
+  }
+  .the{
+    display: block;
+    font-size: 55px;
+    border-radius: 1em;
+    margin-top: 10vw;
+    margin-left: 10vw;
+    display: none;
+  }
+  #The{
+    font-family: 'bello_script';
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: -145px;
+    margin-left: 49px;
+    display: block;
+  }
+}
+
+/*end Home page*/
+
+/*Global Grid*/
+
+#Header nav{
+  margin-top: -40px;
+}
+
+.the_grid_body h1 {
+  margin-top: 110px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'tangoregular', "myriad-pro", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  z-index: 1;
+  letter-spacing: -2px;
+}
+
+.the_grid img{
+  max-width: 100%;
+  -webkit-filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(7px 7x 5px rgba(0, 0, 0, 0.4));
+
+}
+
+.the_grid h3{
+  margin-top: 1vw;
+  text-align: center;
+  font-size: 4vw;
+  font-family: 'tangoregular', "myriad-pro", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  z-index: 1;
+  letter-spacing: -2px;
+  padding: 0.7vw;
+  line-height: 3vw;
+}
+
+.the_grid{
+  list-style: none;
+  padding: 0;
+  margin: 0 15%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 4vw;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 1348px) {
+  .the_grid {
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 967px) {
+  .the_grid {
+    gap: 8vw;
+  }
+  .the_grid_body h1 {
+    font-size: 7vw;
+  }
+  .the_grid h3 {
+    font-size: 5.8vw;
+    padding: 1vw;
+    line-height: 4.5vw;
+  }
+}
+
+@media (max-width: 645px) {
+  .the_grid {
+    margin: 0 15%;
+    margin-bottom: 70px;
+  }
+  #Header nav{
+    margin-top: -50px;
+  }
+  .the_grid_body h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    letter-spacing: -4px;
+  }
+  .the_grid h3 {
+    font-size: 14vw;
+    margin-top: 2vw;
+    letter-spacing: -4px;
+    padding: 2.5vw;
+    line-height: 10.5vw;
+  }
+  
+}
+
+
+@media (max-width: 586.813px) {
+  .the_grid {
+    gap: 2em;
+  }
+  #Header nav{
+    margin-top: 50px;
+  }
+  #Header nav a {
+    font-size: 25px;
+  }
+  .the_grid_body h1 {
+    margin-top: 0px;
+  }
+}
+
+li img {
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+li img:hover {
+  /*background-color: rgba(55, 65, 81, 0.25);*/
+  /*box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;*/
+  -webkit-filter: drop-shadow(8px 8px 6px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(8px 8px 6px rgba(0, 0, 0, 0.3));
+  transform: translateY(-2px);
+}
+
+li img:active{
+  -webkit-filter: drop-shadow(6px 6px 4px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(6px 6px 4px rgba(0, 0, 0, 0.5));
+  transform: translateY(2px);
+}
+
+/*End Global Grid*/
+
+/*Recipe Tab*/
+.recipe_tab{
+  padding: 0;
+  margin: 0 0%;
+  margin-top: 110px;
+  margin-bottom: 50px;
+}
+
+.recipe_tab h1 {
+  margin-top: 110px;
+  padding: 20px;
+  line-height: 50px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'tangoregular', "myriad-pro", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  z-index: 1;
+  letter-spacing: -2px;
+}
+
+.tab_subtitle{
+  font-family: 'bello_script';
+  color: white;
+  margin-top: -30px;
+  margin-bottom: -15px;
+  margin-left: 150px;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+.recipe_tab h3 {
+  margin-top: 0;
+  margin-bottom: 0px;
+  text-align: left;
+  font-size: 40px;
+  font-family: 'tangoregular', "myriad-pro", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  z-index: 1;
+  letter-spacing: -1px;
+}
+
+.recipe_tab ol li {
+  margin-bottom: 20px;
+}
+
+.recipe_tab ol,
+.recipe_tab ul {
+  margin-left: 20px;
+}
+
+.recipe_tab ul {
+  margin-bottom: 25px;
+}
+
+.recipe_tab li, .recipe_tab p{
+  font-size: 22px;
+  font-family: 'neue_kabelregular';
+  color: white;
+  padding: 0;
+}
+
+.recipe_tab li::marker {
+  font-size: 18px;
+}
+
+.recipe_content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 0 50px;
+}
+
+.ingredients-column,
+.instructions-column {
+  flex: 1;
+  margin-right: 20px;
+  
+}
+
+.ingredients-column {
+  flex: 0 0 30%;
+  margin-bottom: 35px;
+}
+
+.instructions-column {
+  flex: 0 0 65.78%;
+}
+
+.ingredients-column h2 {
+  font-family: 'bello_script';
+  color: white;
+  margin-top: 0px;
+  margin-bottom: -7px;
+  font-size: 23px;
+}
+
+li:empty {
+  list-style: none;
+}
+
+@media (max-width: 1087px) {
+  .recipe_content {
+    margin: 0;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .recipe_content {
+    flex-direction: column;
+  }
+
+  .ingredients-column,
+  .instructions-column {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 586.813px) {
+  .recipe_tab {
+    margin-top: 0px;
+  }
+  .recipe_tab h1{
+    margin-top: 0;
+  }
+}
+
+
+/*Custom Font size
+.texas_roll_house h3{
+  font-size: 3.7vw;
+}
+.gingerbread_dudes h3{
+  font-size: 3.2vw;
+}
+
+@media (max-width: 967px) {
+  .texas_roll_house h3{
+    font-size: 5vw;
+  }
+  .gingerbread_dudes h3{
+    font-size: 4.3vw;
+  }
+}
+
+@media (max-width: 645px) {
+  .texas_roll_house h3{
+    font-size: 11.5vw;
+  }
+  .hot_chocolate h3{
+    font-size: 13vw;
+  }
+  .gingerbread_dudes h3{
+    font-size: 11vw;
+  }
+}*/
+
+
+
+/*end About page*/
+
+/*Teas page*/
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/*Teas Mobile*/
+
+/*end teas mobile*/
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+
+
+/*end Teas page*/
