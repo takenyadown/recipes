@@ -41,16 +41,16 @@
             "1 small red onion",
             "2 plum tomeatoes",
             "Tzatziki Sauce",
-            "pita bread",
-            "lemon slices"
+            "Pita bread",
+            "Lemon slices"
         ],
 
         "instructions": [
-            "Cut chicken into bit size pieces and transfer into a gallon size ziploc babeg",
-            "Mix together the olive oil, lemon juice, garlic, oregano, salt, and pepper, and pour over chicken. Squeeze air out of bag and seal. Toss chicken to coat and transfer to regrigerator to marinate for 45mins-1hr.",
+            "Cut chicken into bite size pieces and transfer into a gallon size ziploc babeg.",
+            "Mix together the olive oil, lemon juice, garlic, oregano, salt, and pepper, and pour over chicken. Squeeze air out of bag and seal. Toss chicken to coat and transfer to refrigerator to marinate for 45mins-1hr.",
             "Remove chicken from marinade and thread onto metal skewers. Leave some space between the pieces, don't pack too closely together,",
             "Preheat grill to medium-high. Clean and oil grill to prevent food from sticking.",
-            "Cook the skewers for 8-10 mins, turning unril golden brown on all sides. Baste at least once with reserved marinade, being sure to discard any leftover marinade. Chicken is done cooking when food thermometer reads 165ºF (chicken will continue to cook as it rests). Allow chicken to rest 5 minutes before serving.",
+            "Cook the skewers for 8-10 mins, turning until golden brown on all sides. Baste at least once with reserved marinade, being sure to discard any leftover marinade. Chicken is done cooking when food thermometer reads 165ºF (chicken will continue to cook as it rests). Allow chicken to rest 5 minutes before serving.",
             "Heat pita on grill to warm up and soften, if desired.",
             "Serve with optional garnish ingredients."
         ]
@@ -58,8 +58,8 @@
       },
 
 
-      "brats": {
-        "title": ["Brats"],
+      "cast_iron_brats": {
+        "title": ["Cast Iron Brats"],
         "subtitle": ["Buttery goodness"],
 
         "ingredients": [
@@ -110,7 +110,7 @@
         "subtitle": ["Makes 1 1/3 cups"],
 
         "ingredients": [
-            "2 small garlic cloves, minces",
+            "2 small garlic cloves, minced",
             "1 tsp anchovy paste",
             "2 tbsp freshly squeezed lemon juice",
             "1 tsp Dijon mustard",
@@ -186,10 +186,10 @@
 
         "instructions": [
             "Whisk together milk, flour, egg, and butter in a medium bowl. Place in refrigerator for 20mins.",
-            "whip heavy cream to stiff peaks",
+            "Whip heavy cream to stiff peaks.",
             "Beat powdered sugar, cream cheese, lemon juice, lemon zest, and vanilla in the bowl of a stand mixer fitted with the paddle attachment(i think, I may have used the whisk attachment) until smooth. Gently fold in whipped cream.",
             "Preheat pan on medium-low heat, rub butter all over it. Remove from heat and scoop ½ cup of batter into pan. Use gravity to evenly distribute batter. Place the pan back on the heat and fill in any gaps. turn the heat up to medium-high. Flip when the underside has golden spots. Repeat, buttering pan every other crêpe.",
-            "place filling onto half of the crêpe and fold into a quarter size."
+            "Place filling onto half of the crêpe and fold into a quarter size."
         ]
 
       },
@@ -221,7 +221,7 @@
         ],
 
         "instructions": [
-            "Whisk together the flour, ginger, cinnamon, baking soda, salt, allspice, and cloves in a large bowl",
+            "Whisk together the flour, ginger, cinnamon, baking soda, salt, allspice, and cloves in a large bowl.",
             "Mix the butter, shortening, brown sugar, and molasses in the bowl of a stand mixer fitted with the paddle attachment. Beat in the egg. Beat the dry ingredients into the wet ingredients in two additions. Divide the dough in half, wrap in plastic and pat to 1/2in thick. Refrigerate for 2 hours.",
             "Preheat the oven to 350ºF.",
             "On a lightly floured surface, roll out one piece of dough to ¼ in thick, dusting with flour if needed. Cut into 3-5in thick cookies with a cookie cutter. Brush off the excess flour and refrigerate for 15mins. Repeat with the second piece of dough.",
@@ -281,15 +281,15 @@
 
         "optional": ["optional:"],
         "optional_ingredient": [
-            "edible lavendar for garnish"
+            "Edible lavender for garnish"
         ],
 
         "instructions": [
             "Boil water in a kettle or saucepan.",
             "Place tea bags in a cup, pour the boiling water over the bags and steep for 5mins, DON'T bob the bags, they aren't fishing rods.",
             "Pour milk into microwave save cup and microwave, stirring and checking temp every 20s until it reaches at least 140ºF but no more than 160ºF.",
-            "Use a frothing wand to incorperate air and texture the milk. Optionally, you can use a mason jar and shake until frothy.",
-            "Remove the tea bags from the cup and dissolve in sugar and vanilla. Pour in milk and top with optional lavendar."
+            "Use a frothing wand to incorporate air and texture the milk. Optionally, you can use a mason jar and shake until frothy.",
+            "Remove the tea bags from the cup and dissolve in sugar and vanilla. Pour in milk and top with optional lavender."
         ]
 
       },
@@ -312,7 +312,7 @@
 
         "instructions": [
             "Heat in a saucepan over medium heat.",
-            "Simmer until a thin syrupy consistancy forms.",
+            "Simmer until a thin syrupy consistency forms.",
             "Transfer into a mason jar, syrup will thicken as it cools."
         ]
 
