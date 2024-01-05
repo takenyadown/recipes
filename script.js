@@ -55,6 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (recipeDetails) {
           openTab(recipeId);
           deleteHiddenBurnableDivs();
+          window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to the top
         } else {
           // Fetch recipe details from recipes.json
           fetch('recipes.json')
@@ -113,6 +114,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         document.body.appendChild(subTabContent);
                         openTab(recipeId);
                         deleteHiddenBurnableDivs();
+                        window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to the top
                       } else {
                         console.error("Sub-recipes not found for category:", recipe.name);
                       }
@@ -200,6 +202,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.body.appendChild(tabContent);
                 openTab(recipeId);
                 deleteHiddenBurnableDivs();
+                window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to the top
               }
             } else {
               console.error("Recipe details not found for id:", recipeId);
