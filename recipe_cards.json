@@ -6,32 +6,32 @@
           {
             "id": "deep_dish",
             "name": "Deep Dish",
-            "image": "images/coffee.webp"
+            "image": "images/deep_dish.webp"
           },
           {
             "id": "souvlaki",
             "name": "Souvlaki",
-            "image": "images/coffee.webp"
+            "image": "images/souvlaki.webp"
           },
           {
             "id":"texas_roll_house",
             "name": "Texas Roll House",
-            "image": "images/tea.webp"
+            "image": "images/texas_roll_house.webp"
           },
           {
             "id": "brats",
             "name": "Brats",
-            "image": "images/tea.webp"
+            "image": "images/brats.webp"
           },
           {
             "id": "mushroon_gnocchi",
             "name": "Mushroom Gnocchi",
-            "image": "images/tea.webp"
+            "image": "images/mushroon_gnocchi.webp"
           },
           {
             "id": "sauces_savory",
             "name": "Sauces",
-            "image": "images/tea.webp"
+            "image": "images/sauces_savory.webp"
           }
         ]
       },
@@ -67,6 +67,11 @@
             "id": "recipe_name",
             "name": "Recipe Name",
             "image": "images/tea.webp"
+          },
+          {
+            "id": "candied_pecans",
+            "name": "Candied Pecans",
+            "image": "images/tea.webp"
           }
         ]
       },
@@ -86,12 +91,12 @@
           {
             "id": "lemonade",
             "name": "Lemonade",
-            "image": "images/tea.webp"
+            "image": "images/lemonade.webp"
           },
           {
             "id": "hot_chocolate",
             "name": "Hot Chocolate",
-            "image": "images/tea.webp"
+            "image": "images/hot_chocolate.webp"
           },
           {
             "id": "egg_nog",
@@ -130,6 +135,11 @@
             "id": "tzatziki",
             "name": "Tzatziki Sauce",
             "image": "images/coffee.webp"
+          },
+          {
+            "id": "hollandaise",
+            "name": "Hollandaise Sauce",
+            "image": "images/coffee.webp"
           }
         ]
       },
@@ -159,6 +169,11 @@
           {
             "id": "pumpkin_syrup",
             "name": "Pumpkin Spice Syrup",
+            "image": "images/tea.webp"
+          },
+          {
+            "id": "caramel_syrup",
+            "name": "Caramel Syrup",
             "image": "images/tea.webp"
           }
         ]
