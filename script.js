@@ -272,7 +272,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
+// Check if the Wake Lock API is supported
+if ('wakeLock' in navigator) {
+  // Request a wake lock
+  navigator.wakeLock.request('screen')
+    .then(wakeLock => {
+      console.log('Wake Lock is active!');
+      
+      // You can release the wake lock when it's no longer needed
+      // wakeLock.release();
+    })
+    .catch(error => {
+      console.error('Error requesting Wake Lock:', error);
+    });
+} else {
+  console.warn('Wake Lock API is not supported in this browser.');
+}
 // mobile device detection
 
 // The viewport is less than 768 pixels wide
