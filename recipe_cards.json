@@ -99,14 +99,19 @@
             "image": "images/hot_chocolate.webp"
           },
           {
-            "id": "egg_nog",
-            "name": "Egg Nog",
-            "image": "images/tea.webp"
+            "id": "eggnog",
+            "name": "Eggnog",
+            "image": "images/eggnog.webp"
           },
           {
             "id": "recipe_name",
             "name": "Recipe Name",
             "image": "images/tea.webp"
+          },
+          {
+            "id": "syrups",
+            "name": "Syrups",
+            "image": "images/simple_syrup.webp"
           }
         ]
       },
@@ -150,11 +155,6 @@
             "id": "aeropress",
             "name": "Aeropress",
             "image": "images/coffee.webp"
-          },
-          {
-            "id": "syrups",
-            "name": "Syrups",
-            "image": "images/tea.webp"
           }
         ]
       },
@@ -164,7 +164,7 @@
           {
             "id": "simple_syrup",
             "name": "Simple Syrup",
-            "image": "images/coffee.webp"
+            "image": "images/simple_syrup.webp"
           },
           {
             "id": "pumpkin_syrup",
@@ -174,7 +174,7 @@
           {
             "id": "caramel_syrup",
             "name": "Caramel Syrup",
-            "image": "images/tea.webp"
+            "image": "images/caramel_syrup.webp"
           }
         ]
       }

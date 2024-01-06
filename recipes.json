@@ -224,7 +224,7 @@
             "Whisk together the flour, ginger, cinnamon, baking soda, salt, allspice, and cloves in a large bowl.",
             "Mix the butter, shortening, brown sugar, and molasses in the bowl of a stand mixer fitted with the paddle attachment. Beat in the egg. Beat the dry ingredients into the wet ingredients in two additions. Divide the dough in half, wrap in plastic and pat to 1/2in thick. Refrigerate for 2 hours.",
             "Preheat the oven to 350ºF.",
-            "On a lightly floured surface, roll out one piece of dough to ¼ in thick, dusting with flour if needed. Cut into 3-5in thick cookies with a cookie cutter. Brush off the excess flour and refrigerate for 15mins. Repeat with the second piece of dough.",
+            "On a lightly floured surface, roll out one piece of dough to ¼ in thick, dusting with flour if needed. Cut into 3-5in cookies with a cookie cutter. Brush off the excess flour and refrigerate for 15mins. Repeat with the second piece of dough.",
             "Bake the cookies in batches until they are golden around the edges, 12-15mins. Transfer to wire rack and cool completely."
         ]
 
@@ -234,11 +234,11 @@
 
       "hot_chocolate": {
         "title": ["Hot Chocolate"],
-        "subtitle": ["Makes 1 8oz serving"],
+        "subtitle": ["Makes 1 cup for Santa"],
 
         "ingredients": [
             "¼ cup heavy cream",
-            "3/4 cup malk",
+            "¾ cup malk",
             "1.5 tbsp sugar",
             "2 tbsp dutch-process cocoa powder",
             "a pinch of salt",
@@ -267,6 +267,39 @@
 
 
 
+      "eggnog": {
+        "title": ["Eggnog"],
+        "subtitle": ["eggy"],
+
+        "ingredients": [
+            "2 cups malk",
+            "2½ whole cloves",
+            "1¼ tsp vanilla extract, divided",
+            "½ tsp ground cinnamon",
+            "6 egg yolks",
+            "¾ cup sugar",
+            "2 cups light cream",
+            "1 tsp vanilla extract",
+            "¼ tsp ground nutmeg"
+        ],
+
+        "optional": [""],
+        "optional_ingredient": [
+            ""
+        ],
+
+        "instructions": [
+            "Combine milk, cinnamon, 1/4 teaspoon vanilla, and cloves in a saucepan over the lowest heat setting; stir and heat for 5 minutes. Increase heat to medium-low and slowly bring to a boil. Remove from the heat.",
+            "Whisk egg yolks in a large bowl until light yellow in color. Add sugar and whisk until light and fluffy.",
+            "Pour some of the hot milk mixture into the egg yolk mixture, whisking quickly to avoid scrambling the eggs. Continue adding hot milk and whisking to combine until all milk is incorporated.",
+            "Pour the mixture back into the saucepan. Cook over medium heat, stirring constantly, until thick, about 3 minutes; do not allow the mixture to boil.",
+            "Strain to remove cloves and let cool for about 1 hour, then stir in cream, remaining teaspoon of vanilla, and nutmeg. Refrigerate before serving, 8 hours to overnight."
+        ]
+
+      },
+
+
+
       "london_fog": {
         "title": ["London Fog"],
         "subtitle": ["Makes 14oz"],
@@ -287,13 +320,12 @@
         "instructions": [
             "Boil water in a kettle or saucepan.",
             "Place tea bags in a cup, pour the boiling water over the bags and steep for 5mins, DON'T bob the bags, they aren't fishing rods.",
-            "Pour milk into microwave save cup and microwave, stirring and checking temp every 20s until it reaches at least 140ºF but no more than 160ºF.",
+            "Pour milk into microwave safe cup and microwave, stirring and checking temp every 20s until it reaches at least 140ºF but no more than 160ºF.",
             "Use a frothing wand to incorporate air and texture the milk. Optionally, you can use a mason jar and shake until frothy.",
             "Remove the tea bags from the cup and dissolve in sugar and vanilla. Pour in milk and top with optional lavender."
         ]
 
       },
-
 
 
       "simple_syrup": {
@@ -314,6 +346,31 @@
             "Heat in a saucepan over medium heat.",
             "Simmer until a thin syrupy consistency forms.",
             "Transfer into a mason jar, syrup will thicken as it cools."
+        ]
+
+      },
+
+      "caramel_syrup": {
+        "title": ["Caramel Syrup"],
+        "subtitle": ["Probably burned it"],
+
+        "ingredients": [
+            "¾ cup sugar",
+            "1 cup water",
+            "½ tsp vanilla extract"
+        ],
+
+        "optional": [""],
+        "optional_ingredient": [
+            ""
+        ],
+
+        "instructions": [
+            "In a medium saucepan, add the sugar and ½ cup water. Heat over medium heat until it begins to simmer, swirling the pan occasionally by gently lifting and turning in a circular motion.",
+            "Once the sugar is completely dissolved, reduce the heat slightly, if needed, to keep it at a low boil. You do not need to stir it, but it can be swirled 1-2 times. Continue to low boil for approximately 15-18 minutes until a light golden amber color appears. Note: don't continue to boil or it can become too thick or burn quickly.",
+            "While the mixture is simmering, heat the remaining 1/2 cup of water in the microwave or in a small saucepan. Using hot water for the next step will reduce splatters.",
+            "Once the light golden color appears, remove the saucepan from the heat. Wearing oven mitts, carefully whisk in the remaining (hot) water into the caramel syrup; it will splatter, so be careful. If any syrup hardens, continue whisking and return to heat until it's dissolved again. Stir in the vanilla extract.",
+            "Allow to cool before transferring to an airtight container. You can use it immediately if needed, but it will heat up iced beverages so mix it with milk or espresso first, before the ice. Store in the fridge for up to 2 weeks and use in your favorite beverages or recipes as desired."
         ]
 
       },
