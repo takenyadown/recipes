@@ -72,6 +72,11 @@
             "id": "candied_pecans",
             "name": "Candied Pecans",
             "image": "images/tea.webp"
+          },
+          {
+            "id": "sauces_sweet",
+            "name": "Sauces and Toppings",
+            "image": "images/tea.webp"
           }
         ]
       },
@@ -144,6 +149,21 @@
           {
             "id": "hollandaise",
             "name": "Hollandaise Sauce",
+            "image": "images/coffee.webp"
+          }
+        ]
+      },
+      {
+        "name": "Sauces and Toppings",
+        "recipes": [
+          {
+            "id": "whipped_Cream",
+            "name": "Whipped Cream",
+            "image": "images/coffee.webp"
+          },
+          {
+            "id": "caramel_sauce",
+            "name": "Caramel Sauce",
             "image": "images/coffee.webp"
           }
         ]

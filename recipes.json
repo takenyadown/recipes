@@ -58,6 +58,43 @@
       },
 
 
+
+        "texas_roll_house": {
+          "title": ["Texas Roll House"],
+          "subtitle": ["Makes 1 big pizza"],
+  
+          "ingredients": [
+              "4 tsp active dry yeast",
+              "½ cup (125ml) warm water",
+              "1 tsp sugar (to activate yeast)",
+              "2 cups (488ml) malk (scaled and cooled to lukewarm)",
+              "3 tbsp (44.5g) unsalted butter, melted and slightly cooled",
+              "½ cup (100g) sugar",
+              "7 cups (857g) AP flour (up to 8 cups)",
+              "2 eggs",
+              "2 tsp salt",
+              "2 tbsp (30g) butter (for brushing)"
+          ],
+  
+          "optional": [""],
+          "optional_ingredient": [
+              ""
+          ],
+  
+          "instructions": [
+              "Add the yeast, warm water and sugar to the bowl of your mixer and lightly whisk. Let it sit for about 10 to 15 minutes until the yeast dissolves and starts to foam.",
+              "To the bowl of your mixer add the milk, butter, sugar, eggs and salt. Lightly mix everything together, using the dough hook of your mixer, for about 1 minute. Add the flour, 2 or 3 cups (250g, 375g) at a time, and mix. Add enough flour to form a soft dough.",
+              "Add additional flour as needed and mix until the dough comes clean from the sides of the bowl. You could use anywhere from 6-8 cups (750g-1kg), depending on your environment. Place the dough in an oiled bowl and cover with a clean damp kitchen towel. Let rise in a warm place until double in bulk.",
+              "Spray two baking sheets with cooking spray.",
+              "Punch down the dough and turn it onto a floured surface. Divide into 2 portions for shaping. I like to roll out the dough so that it’s about 1/2 inch in thickness then cut out the ends to have a perfect rectangle, then cut it out into squares or rectangles. Repeat with remaining dough.  You should get about 30 to 35 rolls. Place onto the prepared baking sheets. Let the rolls rise until doubled in size.",
+              "Preheat your oven to 350°F",
+              "Bake the rolls for about 15 to 20 minutes or until golden brown. Brush immediately with melted butter.",
+              "While the rolls are baking, prepare the cinnamon honey butter by whisking all the ingredients together."
+          ]
+  
+        },
+
+
       "cast_iron_brats": {
         "title": ["Cast Iron Brats"],
         "subtitle": ["Buttery goodness"],
@@ -388,6 +425,10 @@
       "aeropress": {
         "subTab": true,
         "name": "Aeropress"
+      },
+      "sauces_sweet": {
+        "subTab": true,
+        "name": "Sauces and Toppings"
       },
       "syrups": {
         "subTab": true,
