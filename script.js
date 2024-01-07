@@ -200,6 +200,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 ingredientsColumn.appendChild(ingredientsOptional);
                 ingredientsColumn.appendChild(ingredientsOptionalList);
 
+            // Add click event listener to scroll to the ingredients column
+            ingredientsColumn.addEventListener('click', () => {
+              ingredientsColumn.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+
+
                 const instructionsColumn = document.createElement("div");
                 instructionsColumn.className = "instructions-column";
 
@@ -227,6 +233,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.body.appendChild(tabContent);
                 openTab(recipeId);
                 deleteHiddenBurnableDivs();
+
+            // Add click event listener to scroll to the ingredients column
+            instructionsColumn.addEventListener('click', () => {
+              instructionsColumn.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+
                 window.scrollTo({ top: 0, behavior: 'auto' }); // Scroll to the top
               }
             } else {
