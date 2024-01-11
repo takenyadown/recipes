@@ -1,5 +1,33 @@
 {
     "recipes": {
+      "sample_recipe": {
+        "title": [""],
+        "subtitle": [""],
+
+        "ingredients": [
+            "",
+            "",
+            ""
+        ],
+
+        "optional": [""],
+        "optional_ingredient": [
+            ""
+        ],
+
+        "optional2": [""],
+        "optional_ingredient2": [
+            ""
+        ],
+
+        "instructions": [
+          "",
+          "",
+          ""
+        ]
+
+      },
+
       "deep_dish": {
         "title": ["Deep Dish"],
         "subtitle": ["Makes 1 big pizza"],
@@ -15,11 +43,61 @@
             ""
         ],
 
-        "instructions": [
+        "optional2": [""],
+        "optional_ingredient2": [
             ""
+        ],
+
+        "instructions": [
+          "",
+          "",
+          ""
         ]
 
       },
+
+
+        "italian_sub": {
+          "title": ["Italian Sub"],
+          "subtitle": ["Makes 1 8\" sub"],
+  
+          "ingredients": [
+              "8\" sub bun",
+              "Capocollo",
+              "Salami",
+              "Pepperoni",
+              "provalone",
+              "~80g lettuce",
+              "Salted tomeatoes"
+          ],
+  
+          "optional": ["Sub Dressing:"],
+          "optional_ingredient": [
+            "30g olive oil",
+            "15g red wine vinegar",
+            "1 tsp dried oregano",
+            "½ tsp garlic powder",
+            "a couple cranks of black pepper",
+            "salt to taste"
+          ],
+
+          "optional2": ["Garlic Basil Lemon Mayo:"],
+          "optional_ingredient2": [
+            "4 spoons (may have been ~60g, may have been ~100g, may have been completely different) of mayo",
+            "1 clove of garlic, grated or minced",
+            "the juice from 1 slice of lemon (~10g)",
+            "3-4 pinches minced basil"
+          ],
+  
+          "instructions": [
+              "Mix all dressing ingredients in a small bowl, mix all mayo ingredients in separate small bowl.",
+              "Toss lettuce and ~2 spoonfulls or ~14g of dressing together in a normal sized bowl.",
+              "Cut bread in half, plop and spread mayo on both pieces.",
+              "Assemble in the following order: Bread, mayo, capocollo, salami, pepperoni, provalone, dressed lettuce, salted tomeatoes, mayo, bread.",
+              "wrap it in some wax paper or parchment paper."
+          ]
+  
+        },
 
 
 
@@ -28,6 +106,7 @@
         "subtitle": ["Makes 4 servings"],
 
         "ingredients": [
+            "1½ lbs chicken breasts (boneless, skinless, cubed)",
             "¼ cup olive oil",
             "1 lemon (juiced, 3 tbsp)",
             "2 garlic cloves, minced",
@@ -76,11 +155,6 @@
               "2 tbsp (30g) butter (for brushing)"
           ],
   
-          "optional": [""],
-          "optional_ingredient": [
-              ""
-          ],
-  
           "instructions": [
               "Add the yeast, warm water and sugar to the bowl of your mixer and lightly whisk. Let it sit for about 10 to 15 minutes until the yeast dissolves and starts to foam.",
               "To the bowl of your mixer add the milk, butter, sugar, eggs and salt. Lightly mix everything together, using the dough hook of your mixer, for about 1 minute. Add the flour, 2 or 3 cups (250g, 375g) at a time, and mix. Add enough flour to form a soft dough.",
@@ -103,11 +177,6 @@
             "A package of brats",
             "2 tbsp butter",
             "Some red onion"
-        ],
-
-        "optional": [""],
-        "optional_ingredient": [
-            ""
         ],
 
         "instructions": [
@@ -158,11 +227,6 @@
             "¼ tsp freshly ground black pepper"
         ],
 
-        "optional": [""],
-        "optional_ingredient": [
-            ""
-        ],
-
         "instructions": [
             "In a medium bowl, whisk together the garlic, anchovy paste, lemon juice, Dijon mustard, and Worcestershire sauce.",
             "Add the mayonnaise, Parmigiano-Reggiano, salt, and pepper and whisk until well combined.",
@@ -211,7 +275,7 @@
 
         ],
 
-        "optional": ["Strawberry Fields:"],
+        "optional": ["Cream Filling:"],
         "optional_ingredient": [
             "141g powdered sugar",
             "1 8oz package cream cheese, softened",
@@ -252,9 +316,11 @@
             "1 large egg"
         ],
 
-        "optional": [""],
+        "optional": ["Royal Icing:"],
         "optional_ingredient": [
-            ""
+            "3 egg whites (separated cold then warmed to room-temp)",
+            "450g powdered sugar",
+            "1 tsp vanilla extract"
         ],
 
         "instructions": [
@@ -262,7 +328,10 @@
             "Mix the butter, shortening, brown sugar, and molasses in the bowl of a stand mixer fitted with the paddle attachment. Beat in the egg. Beat the dry ingredients into the wet ingredients in two additions. Divide the dough in half, wrap in plastic and pat to 1/2in thick. Refrigerate for 2 hours.",
             "Preheat the oven to 350ºF.",
             "On a lightly floured surface, roll out one piece of dough to ¼ in thick, dusting with flour if needed. Cut into 3-5in cookies with a cookie cutter. Brush off the excess flour and refrigerate for 15mins. Repeat with the second piece of dough.",
-            "Bake the cookies in batches until they are golden around the edges, 12-15mins. Transfer to wire rack and cool completely."
+            "Bake the cookies in batches until they are golden around the edges, 12-15mins. Transfer to wire rack and cool completely.",
+            "Whisk egg whites in the bowl of a stand mixer on medium-low until frothy, about 1 minute",
+            "With the mixer on low speed, slowly add the powdered sugar and vanilla",
+            "Once fully incorperated, increase the speed to medium-high until stiff peaks form."
         ]
 
       },
@@ -320,11 +389,6 @@
             "¼ tsp ground nutmeg"
         ],
 
-        "optional": [""],
-        "optional_ingredient": [
-            ""
-        ],
-
         "instructions": [
             "Combine milk, cinnamon, 1/4 teaspoon vanilla, and cloves in a saucepan over the lowest heat setting; stir and heat for 5 minutes. Increase heat to medium-low and slowly bring to a boil. Remove from the heat.",
             "Whisk egg yolks in a large bowl until light yellow in color. Add sugar and whisk until light and fluffy.",
@@ -345,7 +409,7 @@
             "1 cup water",
             "2 Twinings earl grey tea bags",
             "¾ cup malk",
-            "<1tbsp sugar",
+            "½-1tbsp sugar",
             "<¼tsp vanilla extract"
         ],
 
@@ -374,11 +438,6 @@
             "1 part water"
         ],
 
-        "optional": [""],
-        "optional_ingredient": [
-            ""
-        ],
-
         "instructions": [
             "Heat in a saucepan over medium heat.",
             "Simmer until a thin syrupy consistency forms.",
@@ -395,11 +454,6 @@
             "¾ cup sugar",
             "1 cup water",
             "½ tsp vanilla extract"
-        ],
-
-        "optional": [""],
-        "optional_ingredient": [
-            ""
         ],
 
         "instructions": [

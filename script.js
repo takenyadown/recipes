@@ -166,8 +166,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 tabTitle.textContent = recipe.title;
 
                 const tabSubtitle = document.createElement("h4");
-                tabSubtitle.textContent = recipe.subtitle;
-                tabSubtitle.className = "tab_subtitle";
+                if (recipe.subtitle) {
+                  tabSubtitle.textContent = recipe.subtitle;
+                  tabSubtitle.className = "tab_subtitle";
+                }
 
                 const recipeContent = document.createElement("div");
                 recipeContent.className = "recipe_content";
@@ -179,26 +181,77 @@ document.addEventListener("DOMContentLoaded", function () {
                 ingredientsTitle.textContent = "Ingredients:";
 
                 const ingredientsList = document.createElement("ul");
-                recipe.ingredients.forEach(ingredient => {
-                  const listItem = document.createElement("li");
-                  listItem.textContent = ingredient;
-                  ingredientsList.appendChild(listItem);
-                });
+                if (recipe.ingredients) {
+                  recipe.ingredients.forEach(ingredient => {
+                    const listItem = document.createElement("li");
+                    listItem.textContent = ingredient;
+                    ingredientsList.appendChild(listItem);
+                  });
+                }
 
                 const ingredientsOptional = document.createElement("h2");
-                ingredientsOptional.textContent = recipe.optional;
+                if (recipe.optional) {
+                  ingredientsOptional.textContent = recipe.optional;
+                }
 
                 const ingredientsOptionalList = document.createElement("ul");
-                recipe.optional_ingredient.forEach(optional => {
-                  const listItem = document.createElement("li");
-                  listItem.textContent = optional;
-                  ingredientsOptionalList.appendChild(listItem);
-                });
+                if (recipe.optional_ingredient) {
+                  recipe.optional_ingredient.forEach(optional => {
+                    const listItem = document.createElement("li");
+                    listItem.textContent = optional;
+                    ingredientsOptionalList.appendChild(listItem);
+                  });
+                }
+
+                const ingredientsOptional2 = document.createElement("h2");
+                if (recipe.optional2) {
+                  ingredientsOptional2.textContent = recipe.optional2;
+                }
+
+                const ingredientsOptionalList2 = document.createElement("ul");
+                if (recipe.optional_ingredient2) {
+                  recipe.optional_ingredient2.forEach(optional2 => {
+                    const listItem = document.createElement("li");
+                    listItem.textContent = optional2;
+                    ingredientsOptionalList2.appendChild(listItem);
+                  });
+                }
 
                 ingredientsColumn.appendChild(ingredientsTitle);
                 ingredientsColumn.appendChild(ingredientsList);
-                ingredientsColumn.appendChild(ingredientsOptional);
-                ingredientsColumn.appendChild(ingredientsOptionalList);
+
+                // Append optional ingredients only if there are any
+                if (recipe.optional || (recipe.optional_ingredient && recipe.optional_ingredient.length > 0)) {
+                  const ingredientsOptional = document.createElement("h2");
+                  ingredientsOptional.textContent = recipe.optional;
+                  ingredientsColumn.appendChild(ingredientsOptional);
+                
+                  const ingredientsOptionalList = document.createElement("ul");
+                  if (recipe.optional_ingredient && recipe.optional_ingredient.length > 0) {
+                    recipe.optional_ingredient.forEach(optional => {
+                      const listItem = document.createElement("li");
+                      listItem.textContent = optional;
+                      ingredientsOptionalList.appendChild(listItem);
+                    });
+                  }
+                  ingredientsColumn.appendChild(ingredientsOptionalList);
+                }
+                
+                if (recipe.optional2 || (recipe.optional_ingredient2 && recipe.optional_ingredient2.length > 0)) {
+                  const ingredientsOptional2 = document.createElement("h2");
+                  ingredientsOptional2.textContent = recipe.optional2;
+                  ingredientsColumn.appendChild(ingredientsOptional2);
+                
+                  const ingredientsOptionalList2 = document.createElement("ul");
+                  if (recipe.optional_ingredient2 && recipe.optional_ingredient2.length > 0) {
+                    recipe.optional_ingredient2.forEach(optional2 => {
+                      const listItem = document.createElement("li");
+                      listItem.textContent = optional2;
+                      ingredientsOptionalList2.appendChild(listItem);
+                    });
+                  }
+                  ingredientsColumn.appendChild(ingredientsOptionalList2);
+                }
 
             // Add click event listener to scroll to the ingredients column
             ingredientsColumn.addEventListener('click', () => {

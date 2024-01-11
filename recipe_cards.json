@@ -9,6 +9,11 @@
             "image": "images/deep_dish.webp"
           },
           {
+            "id":"italian_sub",
+            "name": "Italian Sub",
+            "image": "images/italian_sub.webp"
+          },
+          {
             "id": "souvlaki",
             "name": "Souvlaki",
             "image": "images/souvlaki.webp"
@@ -39,6 +44,16 @@
         "name": "Sweet",
         "recipes": [
           {
+            "id": "crepes",
+            "name": "Les Crêpes",
+            "image": "images/crepes.webp"
+          },
+          {
+            "id": "gingerbread_dudes",
+            "name": "Gingerbread Dudes",
+            "image": "images/tea.webp"
+          },
+          {
             "id": "creme_brulee",
             "name": "Crème Brûlée",
             "image": "images/creme_brulee.webp"
@@ -51,16 +66,6 @@
           {
             "id": "magic_cookies",
             "name": "Magic Cookies",
-            "image": "images/tea.webp"
-          },
-          {
-            "id": "crepes",
-            "name": "Les Crêpes",
-            "image": "images/tea.webp"
-          },
-          {
-            "id": "gingerbread_dudes",
-            "name": "Gingerbread Dudes",
             "image": "images/tea.webp"
           },
           {

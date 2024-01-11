@@ -431,9 +431,7 @@ li img:active{
   margin-left: 20px;
 }
 
-.recipe_tab ul {
-  margin-bottom: 25px;
-}
+
 
 .recipe_tab li, .recipe_tab p{
   font-size: 22px;
@@ -462,7 +460,7 @@ li img:active{
 
 .ingredients-column {
   flex: 0 0 30%;
-  margin-bottom: 35px;
+  margin-bottom: 53px;
 }
 
 .instructions-column {
@@ -472,7 +470,7 @@ li img:active{
 .ingredients-column h2 {
   font-family: 'bello_script';
   color: white;
-  margin-top: 0px;
+  margin-top: 25px;
   margin-bottom: -7px;
   font-size: 23px;
 }
