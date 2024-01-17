@@ -67,7 +67,7 @@
               "Salami",
               "Pepperoni",
               "provalone",
-              "~80g lettuce",
+              "~70g lettuce",
               "Salted tomeatoes"
           ],
   
@@ -83,7 +83,7 @@
 
           "optional2": ["Garlic Basil Lemon Mayo:"],
           "optional_ingredient2": [
-            "4 spoons (may have been ~60g, may have been ~100g, may have been completely different) of mayo",
+            "60g, ~4 heaping spoons of mayo",
             "1 clove of garlic, grated or minced",
             "the juice from 1 slice of lemon (~10g)",
             "3-4 pinches minced basil"
@@ -140,7 +140,7 @@
 
         "texas_roll_house": {
           "title": ["Texas Roll House"],
-          "subtitle": ["Makes 1 big pizza"],
+          "subtitle": ["Roll out the rolls"],
   
           "ingredients": [
               "4 tsp active dry yeast",
@@ -290,7 +290,51 @@
             "Whip heavy cream to stiff peaks.",
             "Beat powdered sugar, cream cheese, lemon juice, lemon zest, and vanilla in the bowl of a stand mixer fitted with the paddle attachment(i think, I may have used the whisk attachment) until smooth. Gently fold in whipped cream.",
             "Preheat pan on medium-low heat, rub butter all over it. Remove from heat and scoop ½ cup of batter into pan. Use gravity to evenly distribute batter. Place the pan back on the heat and fill in any gaps. turn the heat up to medium-high. Flip when the underside has golden spots. Repeat, buttering pan every other crêpe.",
-            "Place filling onto half of the crêpe and fold into a quarter size."
+            "Place filling onto half of the crêpe and fold into a quarter size.",
+            "Makes 5 or 6 or something."
+        ]
+
+      },
+
+
+
+      "apple_french_toast": {
+        "title": ["Apple French Toast"],
+        "subtitle": ["Makes 4 servings"],
+
+        "ingredients": [
+            "4 demi-Baguettes",
+            "4 apples",
+            "1 lemon",
+            "4 eggs",
+            "6.75oz malk",
+            "4 tsp cinnamon, divided",
+            "2 tbsp sugar",
+            "a few pinches of salt",
+            "4 tbsp maple syrup, divided",
+            "5 tbsp butter, divided",
+            "¾ cup water",
+            "6 tbsp brown sugar",
+            "1 oz pecans",
+            "2 tsp cooking oil",
+            "8 tbsp crème fraîche"
+        ],
+
+        "optional": [""],
+        "optional_ingredient": [
+            ""
+        ],
+
+        "optional2": [""],
+        "optional_ingredient2": [
+            ""
+        ],
+
+        "instructions": [
+          "Place oven rack to top position and preheat to 425ºF. Wash and dry produce. Trim ½\" on a diagomal from ends of baguettes and discard ends; evenly slice remaining bread on a diagonal into 3 oval-shaped pieces. Peel, half and core apples; dice into ½\" pieces. Quarter lemon.",
+          "In a medium bowl, whisk together eggs, milk, 2 tsp cinnamon, 2 tbsp sugar, and a pinch of salt until well combined.",
+          "Transfer egg mixture and baguette slices to a large, Ziploc bag; seal and toss to coat. Set aside, tossing occasionally, until bead is evenly soaked.",
+          ""
         ]
 
       },
@@ -302,7 +346,7 @@
         "subtitle": ["Makes 2-3 dozen dudes"],
 
         "ingredients": [
-            "3 ½ Cups AP flour, plus more for dusting",
+            "3 ½ cups AP flour, plus more for dusting",
             "1 tbsp ground ginger",
             "2 tsp ground cinnamon",
             "1 tsp baking soda",

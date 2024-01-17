@@ -49,9 +49,14 @@
             "image": "images/crepes.webp"
           },
           {
+            "id": "apple_french_toast",
+            "name": "Apple French Toast",
+            "image": "images/crepes.webp"
+          },
+          {
             "id": "gingerbread_dudes",
             "name": "Gingerbread Dudes",
-            "image": "images/tea.webp"
+            "image": "images/gingerbread_dudes.webp"
           },
           {
             "id": "creme_brulee",
