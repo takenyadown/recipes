@@ -335,6 +335,88 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+// Cook mode test
+window.TastyRecipes = window.TastyRecipes || {};
+window.TastyRecipes.cookMode = {
+    wakeLockApi: false,
+    wakeLock: false,
+    cookModeSelector: '.tasty-recipes-cook-mode',
+    init() {
+        if ("wakeLock" in navigator && "request" in navigator.wakeLock) {
+            this.wakeLockApi = navigator.wakeLock;
+            this.enableWakeLock(); // Call the function to enable wake lock
+        }
+
+        const cookModes = document.querySelectorAll(this.cookModeSelector);
+
+        if (cookModes.length > 0) {
+            for (const cookMode of cookModes) {
+                if (!this.wakeLockApi) {
+                    cookMode.style.display = "none";
+                }
+            }
+        }
+    },
+    async enableWakeLock() {
+        try {
+            this.wakeLock = await this.wakeLockApi.request("screen");
+            this.wakeLock.addEventListener("release", () => {
+                this.wakeLock = false;
+                this.setCheckboxesState(false);
+            });
+            this.setCheckboxesState(true);
+        } catch (error) {
+            console.error('Wake lock request failed:', error);
+        }
+    },
+    checkboxChange(checkbox) {
+        if (checkbox.checked) {
+            this.lock();
+        } else {
+            this.unlock();
+        }
+    },
+    setCheckboxesState(state) {
+        const checkboxes = document.querySelectorAll(this.cookModeSelector + ' input[type="checkbox"]');
+        for (const checkbox of checkboxes) {
+            checkbox.checked = state;
+        }
+    },
+    async lock() {
+        if (!this.wakeLock) {
+            try {
+                this.wakeLock = await this.wakeLockApi.request("screen");
+                this.wakeLock.addEventListener("release", () => {
+                    this.wakeLock = false;
+                    this.setCheckboxesState(false);
+                });
+                this.setCheckboxesState(true);
+            } catch (error) {
+                console.error('Wake lock request failed:', error);
+                this.setCheckboxesState(false);
+            }
+        }
+    },
+    unlock() {
+        if (this.wakeLock) {
+            this.wakeLock.release();
+            this.wakeLock = false;
+        }
+        this.setCheckboxesState(false);
+    }
+};
+
+// Call init function when the DOM content is loaded
+document.addEventListener('DOMContentLoaded', () => {
+    window.TastyRecipes.cookMode.init();
+});
+
+
+
+
+
+
+
 
 
 // mobile device detection
