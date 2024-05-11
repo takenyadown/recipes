@@ -189,6 +189,38 @@
       },
 
 
+      "chicken_flappers": {
+        "title": ["Chicken Flappers"],
+        "subtitle": ["Grandma's recipe"],
+
+        "ingredients": [
+            "3 lbs. wings",
+            "1 cup soy sauce",
+            "1 cup brown sugar",
+            "¾ cup butter or oleo",
+            "½ cup water",
+            "1 Tbsp dry mustard"
+        ],
+
+        "optional": ["for 6lbs. wings = 1.5 batches"],
+        "optional_ingredient": [
+            "hello"
+        ],
+
+        "optional2": ["Very good for snacks."],
+        "optional_ingredient2": [
+            ""
+        ],
+
+        "instructions": [
+          "Bake at 350°F for 1.5hrs",
+          "",
+          ""
+        ]
+
+      },
+
+
       "mushroon_gnocchi": {
         "title": ["Mushroom Gnocchi"],
         "subtitle": ["Makes 4 nyokey's"],
