@@ -189,9 +189,9 @@
       },
 
 
-      "mushroon_gnocchi": {
-        "title": ["Mushroom Gnocchi"],
-        "subtitle": [""],
+      "chicken_flappers": {
+        "title": ["Chicken Flappers"],
+        "subtitle": ["Grandma's recipe"],
 
         "ingredients": [
             "3 lbs. wings",
@@ -204,7 +204,7 @@
 
         "optional": ["for 6lbs. wings = 1.5 batches"],
         "optional_ingredient": [
-            "hello"
+            ""
         ],
 
         "optional2": ["Very good for snacks."],
