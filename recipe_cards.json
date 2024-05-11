@@ -40,7 +40,7 @@
           },
           {
             "id": "sauces_savory",
-            "name": "Sauces",
+            "name": "Sauces and Dressings",
             "image": "images/sauces_savory.webp"
           }
         ]
@@ -139,7 +139,7 @@
 
 
       {
-        "name": "Savory Sauces",
+        "name": "Sauces and Dressings",
         "recipes": [
           {
             "id": "caesar_dressing",
