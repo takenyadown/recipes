@@ -29,11 +29,6 @@
             "image": "images/cast_iron_brats.webp"
           },
           {
-            "id": "chicken_flappers",
-            "name": "Chicken testFlappers",
-            "image": "images/mushroon_gnocchi.webp"
-          },
-          {
             "id": "mushroon_gnocchi",
             "name": "Mushroom Gnocchi",
             "image": "images/mushroon_gnocchi.webp"
