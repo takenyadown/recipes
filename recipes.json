@@ -254,6 +254,38 @@
       },
 
 
+
+      "poached_egg": {
+        "title": ["Poached Egg"],
+        "subtitle": [""],
+
+        "ingredients": [
+            "Egg",
+            "1-2 tbsp vinegar",
+            "lotzza water"
+        ],
+
+        "optional": [""],
+        "optional_ingredient": [
+            ""
+        ],
+
+        "optional2": [""],
+        "optional_ingredient2": [
+            ""
+        ],
+
+        "instructions": [
+          "Boil water and vinegar in a medium saucepan.",
+          "Crack an egg into a fine mesh strainer sat atop a bowl, then give it a little swirl to remove the liquidy bits. Transfer the egg to a ramekin.",
+          "Reduce heat and create a vortex in the water, gently lower the ramekin into the vortex to release the egg and cook for 3 mins.",
+          "Remove egg with a slotted spoon and dab with a paper towel to remove any excess water. Throw on some salt and pepper."
+        ]
+
+      },
+
+
+
       "caesar_dressing": {
         "title": ["Caesar Dressing"],
         "subtitle": ["Makes 1 1/3 cups"],
@@ -346,6 +378,7 @@
         "subtitle": ["Makes 4 servings"],
 
         "ingredients": [
+            "NOT FINISHED!!!!",
             "4 demi-Baguettes",
             "4 apples",
             "1 lemon",
@@ -516,6 +549,7 @@
       },
 
 
+
       "simple_syrup": {
         "title": ["Simple Syrup"],
         "subtitle": ["Looks complicated"],
@@ -533,6 +567,8 @@
 
       },
 
+
+
       "caramel_syrup": {
         "title": ["Caramel Syrup"],
         "subtitle": ["Probably burned it"],
@@ -549,6 +585,32 @@
             "While the mixture is simmering, heat the remaining ½ cup of water in the microwave or in a small saucepan. Using hot water for the next step will reduce splatters.",
             "Once the light golden color appears, remove the saucepan from the heat. Wearing oven mitts, carefully whisk in the remaining (hot) water into the caramel syrup; it will splatter, so be careful. If any syrup hardens, continue whisking and return to heat until it's dissolved again. Stir in the vanilla extract.",
             "Allow to cool before transferring to an airtight container. You can use it immediately if needed, but it will heat up iced beverages so mix it with milk or espresso first, before the ice. Store in the fridge for up to 2 weeks and use in your favorite beverages or recipes as desired."
+        ]
+
+      },
+
+
+
+      "mocha_sauce": {
+        "title": ["Mocha Syrup"],
+        "subtitle": [""],
+
+        "ingredients": [
+            "1 part cocoa powder",
+            "1 part water",
+            "2 parts sugar",
+            "a splash of vanilla",
+            "a pinch of salt"
+        ],
+
+        "optional": ["For a peppermint mocha:"],
+        "optional_ingredient": [
+            "tiny sploosh of peppermint extract to taste."
+        ],
+
+        "instructions": [
+            "Boil water.",
+            "Combine all ingredients in a bowl and whisk until smooth and shiny."
         ]
 
       },

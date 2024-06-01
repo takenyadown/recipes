@@ -39,6 +39,11 @@
             "image": "images/mushroon_gnocchi.webp"
           },
           {
+            "id": "poached_egg",
+            "name": "Poached Egg",
+            "image": "images/poached_egg.webp"
+          },
+          {
             "id": "sauces_savory",
             "name": "Sauces and Dressings",
             "image": "images/sauces_savory.webp"
@@ -55,7 +60,7 @@
           },
           {
             "id": "apple_french_toast",
-            "name": "Apple French Toast",
+            "name": "Apple French Toast WIP",
             "image": "images/crepes.webp"
           },
           {
@@ -210,6 +215,11 @@
             "id": "caramel_syrup",
             "name": "Caramel Syrup",
             "image": "images/caramel_syrup.webp"
+          },
+          {
+            "id": "mocha_sauce",
+            "name": "Mocha Syrup",
+            "image": "images/mocha_sauce.webp"
           }
         ]
       }
