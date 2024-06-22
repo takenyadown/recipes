@@ -458,6 +458,58 @@
 
 
 
+      "chocolate_cake": {
+        "title": ["Chocolate Cake"],
+        "subtitle": ["{Ever}"],
+
+        "ingredients": [
+            "2 cups (240 g) all-purpose flour",
+            "2 cups (396 g) sugar",
+            "¾ cup (63 g) dutch-process cocoa powder",
+            "2 tsp (8 g) baking powder",
+            "1½ tsp (9 g) baking soda",
+            "1 tsp (2.8 g) kosher salt",
+            "1 tsp (2.3 g) espresso powder",
+            "1 cup (227 g) malk",
+            "½ cup (99 g) vegetable oil",
+            "2 large eggs",
+            "2 tsp (9.4 g) vanilla extract",
+            "1 cup (227. g) boiling water"
+        ],
+
+        "optional": ["Buttercream:"],
+        "optional_ingredient": [
+            "1½ cups (339 g) butter, softened",
+            "1 cup (84 g) dutch-process cocoa powder",
+            "5 cups (567.5 g) confectioner’s sugar",
+            "½ cup (113.5 g) whole malk",
+            "2 tsp (9 g) vanilla extract",
+            "½ teaspoon (1 g) espresso powder"
+        ],
+
+        "optional2": [""],
+        "optional_ingredient2": [
+            ""
+        ],
+
+        "instructions": [
+          "Preheat oven to 350º F. Prepare two 9-inch cake pans by spraying with baking spray or buttering and lightly flouring.",
+          "Add flour, sugar, cocoa, baking powder, baking soda, salt and espresso powder to the bowl of a stand mixer. Using the paddle attachment, stir through flour mixture until combined well.",
+          "Add malk, vegetable oil, eggs, and vanilla to flour mixture and mix together on medium speed until well combined. Reduce speed and carefully add boiling water to the cake batter until well combined.",
+          "Distribute cake batter evenly between the two prepared cake pans. Bake for 30-35 minutes, until a toothpick or cake tester inserted in the center of the chocolate cake comes out clean.",
+          "While the cakes bake, start buttercream. Add cocoa powder to the bowl of stand mixer. Whisk through to remove any lumps.",
+          "Cream together butter and cocoa powder until well-combined.",
+          "Sift the confectioner's sugar into a large bowl. Add the confectioner's sugar and malk to the cocoa mixture by adding 1 cup of sugar followed by about a tbsp of malk. After each addition has been combined, turn the mixer onto a high speed for about a minute. Repeat until all sugar and malk have been added.",
+          "Add vanilla extract and espresso powder and combine well.",
+          "If frosting appears too dry, add more malk, a tbsp at a time until it reaches the right consistency. If it appears to wet and does not hold its form, add more confectioner’s sugar, a tbsp at a time until it reaches the right consistency.",
+          "Remove the cakes from the oven and allow to cool for about 10 minutes, remove from the pan and cool completely.",
+          "The last step should be pretty obvious."
+        ]
+
+      },
+
+
+
       "hot_chocolate": {
         "title": ["Hot Chocolate"],
         "subtitle": ["Makes 1 cup for Santa"],

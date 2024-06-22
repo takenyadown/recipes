@@ -79,6 +79,11 @@
             "image": "images/tea.webp"
           },
           {
+            "id": "chocolate_cake",
+            "name": "Chocolate Cake",
+            "image": "images/chocolate_cake.webp"
+          },
+          {
             "id": "magic_cookies",
             "name": "Magic Cookies",
             "image": "images/tea.webp"
