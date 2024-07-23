@@ -136,7 +136,37 @@
 
       },
 
+      "al_burro": {
+        "title": ["Fettuccine Al Burro"],
+        "subtitle": ["the real alfredo"],
 
+        "ingredients": [
+            "151g dried fettuccine (1/3 package) or some amount of fresh fettuccine",
+            "2⅔ tbsp unsalted butter, cut into smaller chunks",
+            "30g parmigiano reggiano, grated on that small side with the pokey thingies"
+        ],
+
+        "optional": [""],
+        "optional_ingredient": [
+            ""
+        ],
+
+        "optional2": [""],
+        "optional_ingredient2": [
+            ""
+        ],
+
+        "instructions": [
+          "Boil and salt water, cook pasta",
+          "Grate cheese and cube butter, place butter in a mixing bowl",
+          "Once pasta is cooked, scoop at least 1/2 cup of the pasta water out with a liquid measuring cup, but probably more just to be safe.",
+          "Transfer the pasta directly from the water into a bowl of butter with tongs and shake violently to melt butter and evenly coat pasta.",
+          "add parmesan to bowl and continue to be violent for a few seconds.",
+          "add about an ounce or so of water to the bowl and be violent. Keep doing that until it looks saucy.",
+          "season with salt and pepper, grate some more parmesan on top."
+        ]
+
+      },
 
         "texas_roll_house": {
           "title": ["Texas Roll House"],
